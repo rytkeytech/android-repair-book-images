@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="Inter, DejaVu Sans, sans-serif">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d7b98e"/><stop offset="1" stop-color="#b58e5d"/></linearGradient>
+    <pattern id="grain" width="160" height="22" patternUnits="userSpaceOnUse"><path d="M0 11 C40 6 80 16 160 10" stroke="#a37c4c" stroke-width="1.2" fill="none" opacity=".35"/></pattern>
+    <linearGradient id="mat" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f7f9a"/><stop offset="1" stop-color="#2e6278"/></linearGradient>
+    <pattern id="matgrid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0 V30 H0" stroke="#5c9bb5" stroke-width="1" fill="none" opacity=".45"/></pattern>
+    <linearGradient id="dev" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eceff1"/><stop offset="1" stop-color="#b0bec5"/></linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#455a64"/><stop offset="1" stop-color="#263238"/></linearGradient>
+    <linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7d46"/><stop offset="1" stop-color="#1b5631"/></linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="3" dy="6" stdDeviation="5" flood-color="#2b1d0e" flood-opacity=".35"/></filter>
+    <radialGradient id="lamp" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fffde7" stop-opacity=".9"/><stop offset="1" stop-color="#fffde7" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#fff"/>
+  <text x="40" y="52" font-size="30" font-weight="700" fill="#0D2847">A clean, well-organised bench (top view)</text>
+  <text x="40" y="84" font-size="17" fill="#55657a">Everything has a fixed place. The phone you are working on sits in the middle, under the microscope.</text>
+
+  <!-- desk -->
+  <rect x="40" y="110" width="860" height="640" rx="14" fill="url(#wood)"/><rect x="40" y="110" width="860" height="640" rx="14" fill="url(#grain)"/>
+  <!-- lamp glow -->
+  <ellipse cx="470" cy="420" rx="300" ry="230" fill="url(#lamp)"/>
+
+  <!-- mat -->
+  <g filter="url(#sh)"><rect x="250" y="250" width="440" height="380" rx="10" fill="url(#mat)"/></g>
+  <rect x="250" y="250" width="440" height="380" rx="10" fill="url(#matgrid)"/>
+  <circle cx="676" cy="264" r="6" fill="#cfd8dc" stroke="#78909c" stroke-width="2"/>
+  <!-- wrist strap -->
+  <path d="M676 264 C720 300 720 520 640 600" stroke="#263238" stroke-width="3" fill="none" stroke-dasharray="2 0"/>
+  <ellipse cx="628" cy="606" rx="20" ry="12" fill="none" stroke="#1565c0" stroke-width="6"/>
+
+  <!-- microscope (top view): base, arm, head with eyepieces -->
+  <g filter="url(#sh)">
+    <rect x="400" y="470" width="150" height="120" rx="14" fill="url(#dark)"/>
+    <rect x="455" y="300" width="40" height="190" rx="8" fill="#37474f"/>
+    <circle cx="475" cy="300" r="52" fill="url(#dev)" stroke="#78909c" stroke-width="2"/>
+    <circle cx="452" cy="268" r="16" fill="#263238"/><circle cx="498" cy="268" r="16" fill="#263238"/>
+    <circle cx="452" cy="268" r="8" fill="#546e7a"/><circle cx="498" cy="268" r="8" fill="#546e7a"/>
+    <rect x="525" y="290" width="30" height="20" rx="4" fill="#90a4ae"/>
+  </g>
+  <!-- board in holder under lens -->
+  <g filter="url(#sh)">
+    <rect x="405" y="380" width="140" height="70" rx="6" fill="#90a4ae"/>
+    <rect x="420" y="390" width="110" height="50" rx="4" fill="url(#pcb)"/>
+    <rect x="432" y="398" width="30" height="20" fill="#cfd8dc"/><rect x="470" y="396" width="22" height="22" fill="#1d1f22"/><rect x="500" y="420" width="22" height="12" fill="#d4af37"/>
+  </g>
+
+  <!-- DC power supply -->
+  <g transform="translate(70,140)" filter="url(#sh)">
+    <rect width="160" height="120" rx="10" fill="url(#dev)" stroke="#78909c"/>
+    <rect x="14" y="14" width="92" height="44" rx="4" fill="#102027"/>
+    <text x="60" y="34" font-size="15" fill="#76ff03" font-family="DejaVu Sans Mono" text-anchor="middle" font-weight="700">4.00V</text>
+    <text x="60" y="52" font-size="15" fill="#ff5252" font-family="DejaVu Sans Mono" text-anchor="middle" font-weight="700">0.000A</text>
+    <circle cx="132" cy="30" r="12" fill="#37474f"/><circle cx="132" cy="70" r="12" fill="#37474f"/>
+    <circle cx="40" cy="92" r="9" fill="#c62828"/><circle cx="80" cy="92" r="9" fill="#212121"/>
+  </g>
+  <path d="M110 232 C150 330 300 360 420 405" stroke="#c62828" stroke-width="3" fill="none"/>
+  <path d="M150 232 C190 320 320 350 425 412" stroke="#212121" stroke-width="3" fill="none"/>
+
+  <!-- soldering station -->
+  <g transform="translate(70,330)" filter="url(#sh)">
+    <rect width="150" height="110" rx="10" fill="url(#dark)"/>
+    <rect x="14" y="14" width="72" height="36" rx="4" fill="#102027"/>
+    <text x="50" y="39" font-size="18" fill="#ffab40" font-family="DejaVu Sans Mono" text-anchor="middle" font-weight="700">340°</text>
+    <circle cx="118" cy="32" r="12" fill="#607d8b"/>
+    <!-- iron holder -->
+    <ellipse cx="75" cy="86" rx="50" ry="14" fill="#37474f"/>
+  </g>
+  <g transform="translate(108,416) rotate(-12)"><rect width="110" height="14" rx="7" fill="#1565c0"/><rect x="110" y="4" width="40" height="6" fill="#b0bec5"/><path d="M150 4 l12 3 l-12 3 z" fill="#78909c"/></g>
+
+  <!-- hot air station -->
+  <g transform="translate(70,480)" filter="url(#sh)">
+    <rect width="150" height="120" rx="10" fill="url(#dev)" stroke="#78909c"/>
+    <rect x="14" y="14" width="72" height="36" rx="4" fill="#102027"/>
+    <text x="50" y="39" font-size="18" fill="#ff5252" font-family="DejaVu Sans Mono" text-anchor="middle" font-weight="700">360°</text>
+    <circle cx="118" cy="32" r="12" fill="#607d8b"/><circle cx="118" cy="80" r="12" fill="#607d8b"/>
+  </g>
+  <g transform="translate(90,620)"><rect width="130" height="30" rx="12" fill="#37474f"/><rect x="130" y="7" width="30" height="16" fill="#90a4ae"/><path d="M160 7 h14 v16 h-14 z" fill="#b0bec5"/></g>
+
+  <!-- multimeter -->
+  <g transform="translate(730,150)" filter="url(#sh)">
+    <rect width="130" height="190" rx="18" fill="#ffca28" stroke="#c49000" stroke-width="2"/>
+    <rect x="16" y="16" width="98" height="50" rx="5" fill="#263238"/>
+    <text x="65" y="50" font-size="20" fill="#76ff03" font-family="DejaVu Sans Mono" text-anchor="middle" font-weight="700">0.412</text>
+    <circle cx="65" cy="118" r="30" fill="#37474f"/><rect x="62" y="92" width="6" height="22" rx="3" fill="#cfd8dc"/>
+    <circle cx="35" cy="170" r="7" fill="#212121"/><circle cx="65" cy="170" r="7" fill="#c62828"/><circle cx="95" cy="170" r="7" fill="#c62828" opacity=".6"/>
+  </g>
+
+  <!-- screw mat -->
+  <g transform="translate(730,380)" filter="url(#sh)">
+    <rect width="140" height="130" rx="8" fill="#eceff1" stroke="#90a4ae"/>
+    <g stroke="#b0bec5"><path d="M47 0 V130 M93 0 V130 M0 43 H140 M0 87 H140"/></g>
+    <g fill="#546e7a"><circle cx="20" cy="20" r="4"/><circle cx="30" cy="26" r="4"/><circle cx="68" cy="22" r="4"/><circle cx="112" cy="18" r="4"/><circle cx="122" cy="28" r="4"/><circle cx="24" cy="66" r="4"/><circle cx="70" cy="64" r="4"/><circle cx="78" cy="70" r="4"/><circle cx="116" cy="64" r="4"/><circle cx="22" cy="108" r="4"/><circle cx="66" cy="108" r="4"/></g>
+  </g>
+
+  <!-- customer boxes -->
+  <g transform="translate(730,540)" filter="url(#sh)">
+    <rect width="66" height="90" rx="6" fill="#fff8e1" stroke="#ffb300" stroke-width="2"/><rect x="74" width="66" height="90" rx="6" fill="#e8f5e9" stroke="#43a047" stroke-width="2"/>
+    <rect x="10" y="10" width="46" height="16" rx="3" fill="#ffb300"/><rect x="84" y="10" width="46" height="16" rx="3" fill="#43a047"/>
+    <text x="33" y="22" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">JOB 214</text><text x="107" y="22" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">JOB 215</text>
+    <rect x="16" y="36" width="34" height="48" rx="6" fill="#263238"/><rect x="90" y="36" width="34" height="48" rx="6" fill="#263238"/>
+  </g>
+
+  <!-- tools: tweezers + screwdrivers + flux + IPA -->
+  <g transform="translate(280,660)">
+    <g transform="rotate(-4)"><rect x="0" y="0" width="120" height="16" rx="8" fill="#e65100"/><rect x="120" y="5" width="50" height="6" fill="#b0bec5"/></g>
+    <g transform="translate(0,34) rotate(-4)"><rect x="0" y="0" width="120" height="16" rx="8" fill="#1565c0"/><rect x="120" y="5" width="50" height="6" fill="#b0bec5"/></g>
+    <path d="M200 10 L330 20 M200 22 L330 22" stroke="#78909c" stroke-width="4" stroke-linecap="round"/>
+    <rect x="360" y="0" width="34" height="60" rx="6" fill="#fff59d" stroke="#f9a825" stroke-width="2"/><text x="377" y="36" font-size="11" text-anchor="middle" font-weight="700" fill="#795548">FLUX</text>
+    <rect x="410" y="-6" width="46" height="66" rx="8" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="433" y="34" font-size="12" text-anchor="middle" font-weight="700" fill="#1565c0">IPA</text>
+  </g>
+
+  <!-- fume extractor -->
+  <g transform="translate(560,140)" filter="url(#sh)">
+    <rect width="110" height="90" rx="10" fill="url(#dark)"/><circle cx="55" cy="45" r="34" fill="#546e7a"/>
+    <g stroke="#263238" stroke-width="4"><path d="M55 14 v62 M24 45 h62 M33 23 l44 44 M77 23 l-44 44"/></g>
+  </g>
+  <!-- lamp -->
+  <g transform="translate(260,140)" filter="url(#sh)">
+    <rect width="250" height="40" rx="20" fill="#eceff1" stroke="#90a4ae"/><rect x="20" y="10" width="210" height="20" rx="10" fill="#fffde7"/>
+  </g>
+
+  <path d="M765 335 C720 370 600 380 528 418" stroke="#212121" stroke-width="3" fill="none"/>
+  <path d="M795 335 C760 400 620 410 532 430" stroke="#c62828" stroke-width="3" fill="none"/>
+  <!-- labels -->
+  <g font-size="16" fill="#1d1d1f">
+    <g><circle cx="940" cy="150" r="14" fill="#E65100"/><text x="940" y="156" text-anchor="middle" fill="#fff" font-weight="700" font-size="14">1</text><text x="964" y="156" font-weight="600">DC power supply</text></g>
+    <g><circle cx="940" cy="192" r="14" fill="#E65100"/><text x="940" y="198" text-anchor="middle" fill="#fff" font-weight="700" font-size="14">2</text><text x="964" y="198" font-weight="600">Soldering station</text></g>
+    <g><circle cx="940" cy="234" r="14" fill="#E65100"/><text x="940" y="240" text-anchor="middle" fill="#fff" font-weight="700" font-size="14">3</text><text x="964" y="240" font-weight="600">Hot-air station</text></g>
+    <g><circle cx="940" cy="276" r="14" fill="#E65100"/><text x="940" y="282" text-anchor="middle" fill="#fff" font-weight="700" font-size="14">4</text><text x="964" y="282" font-weight="600">LED lamp</text></g>
+    <g><circle cx="940" cy="318" r="14" fill="#E65100"/><text x="940" y="324" text-anchor="middle" fill="#fff" font-weight="700" font-size="14">5</text><text x="964" y="324" font-weight="600">Fume extractor</text></g>
+    <g><circle cx="940" cy="360" r="14" fill="#E65100"/><text x="940" y="366" text-anchor="middle" fill="#fff" font-weight="700" font-size="14">6</text><text x="964" y="366" font-weight="600">Multimeter</text></g>
+    <g><circle cx="940" cy="402" r="14" fill="#E65100"/><text x="940" y="408" text-anchor="middle" fill="#fff" font-weight="700" font-size="14">7</text><text x="964" y="408" font-weight="600">Microscope + board holder</text></g>
+    <g><circle cx="940" cy="444" r="14" fill="#E65100"/><text x="940" y="450" text-anchor="middle" fill="#fff" font-weight="700" font-size="14">8</text><text x="964" y="450" font-weight="600">Anti-static mat + wrist strap</text></g>
+    <g><circle cx="940" cy="486" r="14" fill="#E65100"/><text x="940" y="492" text-anchor="middle" fill="#fff" font-weight="700" font-size="14">9</text><text x="964" y="492" font-weight="600">Magnetic screw mat</text></g>
+    <g><circle cx="940" cy="528" r="14" fill="#E65100"/><text x="940" y="534" text-anchor="middle" fill="#fff" font-weight="700" font-size="14">10</text><text x="964" y="534" font-weight="600">Customer job boxes</text></g>
+    <g><circle cx="940" cy="570" r="14" fill="#E65100"/><text x="940" y="576" text-anchor="middle" fill="#fff" font-weight="700" font-size="14">11</text><text x="964" y="576" font-weight="600">Hand tools, flux, IPA</text></g>
+  </g>
+  <!-- number badges on desk -->
+  <g font-size="13" font-weight="700" fill="#fff" text-anchor="middle">
+    <circle cx="70" cy="140" r="13" fill="#E65100" stroke="#fff" stroke-width="2"/><text x="70" y="145">1</text>
+    <circle cx="70" cy="330" r="13" fill="#E65100" stroke="#fff" stroke-width="2"/><text x="70" y="335">2</text>
+    <circle cx="70" cy="480" r="13" fill="#E65100" stroke="#fff" stroke-width="2"/><text x="70" y="485">3</text>
+    <circle cx="260" cy="140" r="13" fill="#E65100" stroke="#fff" stroke-width="2"/><text x="260" y="145">4</text>
+    <circle cx="560" cy="140" r="13" fill="#E65100" stroke="#fff" stroke-width="2"/><text x="560" y="145">5</text>
+    <circle cx="730" cy="150" r="13" fill="#E65100" stroke="#fff" stroke-width="2"/><text x="730" y="155">6</text>
+    <circle cx="400" cy="470" r="13" fill="#E65100" stroke="#fff" stroke-width="2"/><text x="400" y="475">7</text>
+    <circle cx="250" cy="250" r="13" fill="#E65100" stroke="#fff" stroke-width="2"/><text x="250" y="255">8</text>
+    <circle cx="730" cy="380" r="13" fill="#E65100" stroke="#fff" stroke-width="2"/><text x="730" y="385">9</text>
+    <circle cx="730" cy="540" r="13" fill="#E65100" stroke="#fff" stroke-width="2"/><text x="730" y="545">10</text>
+    <circle cx="280" cy="660" r="13" fill="#E65100" stroke="#fff" stroke-width="2"/><text x="280" y="665">11</text>
+  </g>
+  <text x="930" y="640" font-size="15" fill="#55657a">Keep each customer's</text>
+  <text x="930" y="662" font-size="15" fill="#55657a">phone, screws and parts</text>
+  <text x="930" y="684" font-size="15" fill="#55657a">in their own labelled box.</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="1200" height="850" font-family="Inter, DejaVu Sans, sans-serif">
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a4a5c"/><stop offset=".45" stop-color="#121a24"/><stop offset="1" stop-color="#05080c"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity=".0"/><stop offset=".5" stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9dee3"/><stop offset="1" stop-color="#9aa4ad"/></linearGradient>
+    <linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7d46"/><stop offset="1" stop-color="#1b5631"/></linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef1f3"/><stop offset="1" stop-color="#a9b2ba"/></linearGradient>
+    <linearGradient id="batt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b4652"/><stop offset="1" stop-color="#1f262e"/></linearGradient>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b7fa6"/><stop offset="1" stop-color="#2b4566"/></linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#0b1a2b" flood-opacity=".28"/></filter>
+    <!-- isometric-ish transform: skew layers -->
+  </defs>
+  <rect width="1200" height="850" fill="#ffffff"/>
+  <text x="40" y="52" font-size="30" font-weight="700" fill="#0D2847">Inside a phone: the main hardware parts</text>
+  <text x="40" y="84" font-size="17" fill="#55657a">An exploded view. Every Android phone is built from the same six layers.</text>
+
+  <!-- each layer drawn in a common skewed space -->
+  <g transform="translate(110,120)">
+    <!-- 1 screen -->
+    <g transform="translate(0,0) matrix(1,0,-0.55,0.42,140,0)" filter="url(#sh)">
+      <rect x="0" y="0" width="520" height="250" rx="36" fill="url(#glass)" stroke="#000" stroke-width="2"/>
+      <rect x="14" y="14" width="492" height="222" rx="26" fill="#0b1118" stroke="#24313f" stroke-width="2"/>
+      <rect x="0" y="0" width="520" height="250" rx="36" fill="url(#shine)"/>
+      <circle cx="40" cy="125" r="7" fill="#1f2a36" stroke="#3a4a5c" stroke-width="2"/>
+    </g>
+    <!-- 2 frame -->
+    <g transform="translate(0,112) matrix(1,0,-0.55,0.42,140,0)" filter="url(#sh)">
+      <rect x="0" y="0" width="520" height="250" rx="36" fill="url(#frame)" stroke="#6d7780" stroke-width="2"/>
+      <rect x="150" y="30" width="280" height="190" rx="14" fill="#7d8790" opacity=".55"/>
+      <rect x="40" y="40" width="90" height="170" rx="10" fill="#b7bfc6" stroke="#8a949d"/>
+      <rect x="450" y="40" width="40" height="170" rx="8" fill="#b7bfc6" stroke="#8a949d"/>
+    </g>
+    <!-- 3 motherboard -->
+    <g transform="translate(0,224) matrix(1,0,-0.55,0.42,140,0)" filter="url(#sh)">
+            <rect x="20" y="20" width="210" height="210" rx="14" fill="url(#pcb)" stroke="#123d22" stroke-width="2"/>
+      <rect x="34" y="34" width="120" height="70" rx="6" fill="url(#shield)" stroke="#7d8790"/><rect x="164" y="34" width="52" height="136" rx="6" fill="url(#shield)" stroke="#7d8790"/>
+      <rect x="34" y="114" width="120" height="56" rx="6" fill="url(#shield)" stroke="#7d8790"/>
+      <rect x="44" y="180" width="40" height="36" rx="3" fill="#1d1f22"/>
+      <rect x="96" y="182" width="44" height="14" rx="2" fill="#d4af37"/><rect x="164" y="182" width="52" height="34" rx="3" fill="#d4af37"/>
+      <rect x="96" y="202" width="44" height="14" rx="2" fill="#d4af37"/>
+      <g fill="#c9a96e"><rect x="60" y="108" width="6" height="4"/><rect x="72" y="108" width="6" height="4"/><rect x="84" y="108" width="6" height="4"/><rect x="96" y="108" width="6" height="4"/></g>
+    </g>
+    <!-- 4 battery -->
+    <g transform="translate(0,336) matrix(1,0,-0.55,0.42,140,0)" filter="url(#sh)">
+      <rect x="175" y="22" width="300" height="206" rx="16" fill="url(#batt)" stroke="#0d1115" stroke-width="2"/>
+      <rect x="205" y="70" width="240" height="110" rx="8" fill="#e65100" opacity=".9"/>
+      <rect x="230" y="26" width="60" height="22" rx="3" fill="#c9a96e"/>
+    </g>
+    <!-- 5 sub-board -->
+    <g transform="translate(0,448) matrix(1,0,-0.55,0.42,140,0)" filter="url(#sh)">
+      <rect x="20" y="40" width="490" height="60" rx="12" fill="#3a8a52" stroke="#123d22" stroke-width="2"/>
+      <rect x="230" y="52" width="70" height="36" rx="16" fill="#cfd6dc" stroke="#6d7780" stroke-width="2"/>
+      <rect x="246" y="64" width="38" height="12" rx="6" fill="#2b333b"/>
+      <circle cx="120" cy="70" r="12" fill="#1d1f22" stroke="#b0bec5" stroke-width="3"/>
+      <rect x="380" y="58" width="80" height="24" rx="3" fill="#d4af37"/>
+    </g>
+    <!-- 6 back cover -->
+    <g transform="translate(0,560) matrix(1,0,-0.55,0.42,140,0)" filter="url(#sh)">
+      <rect x="0" y="0" width="520" height="250" rx="36" fill="url(#back)" stroke="#1d3150" stroke-width="2"/>
+      <rect x="0" y="0" width="520" height="250" rx="36" fill="url(#shine)"/>
+      <rect x="30" y="24" width="120" height="110" rx="24" fill="#1e2f45" stroke="#7f9bbb" stroke-width="2"/>
+      <circle cx="62" cy="56" r="20" fill="#0b1118" stroke="#9fb3c8" stroke-width="4"/>
+      <circle cx="62" cy="104" r="20" fill="#0b1118" stroke="#9fb3c8" stroke-width="4"/>
+      <circle cx="116" cy="56" r="10" fill="#0b1118" stroke="#9fb3c8" stroke-width="3"/>
+      <circle cx="116" cy="104" r="7" fill="#fff6c8"/>
+    </g>
+  </g>
+
+  <!-- callouts -->
+  <g font-size="17" fill="#1d1d1f">
+  <polyline points="637,183 760,183 790,183" fill="none" stroke="#E65100" stroke-width="2"/><circle cx="637" cy="183" r="5" fill="#E65100" stroke="#fff" stroke-width="1.5"/><circle cx="812" cy="183" r="16" fill="#E65100"/><text x="812" y="189" text-anchor="middle" fill="#fff" font-weight="700" font-size="16">1</text><text x="840" y="179" font-weight="700" font-size="19">Screen</text><text x="840" y="202" fill="#55657a" font-size="15">Display + touch, glued to the frame</text>
+  <polyline points="621,308 760,300 790,300" fill="none" stroke="#E65100" stroke-width="2"/><circle cx="621" cy="308" r="5" fill="#E65100" stroke="#fff" stroke-width="1.5"/><circle cx="812" cy="300" r="16" fill="#E65100"/><text x="812" y="306" text-anchor="middle" fill="#fff" font-weight="700" font-size="16">2</text><text x="840" y="296" font-weight="700" font-size="19">Middle frame</text><text x="840" y="319" fill="#55657a" font-size="15">Metal chassis that holds everything</text>
+  <polyline points="317,369 760,410 790,410" fill="none" stroke="#E65100" stroke-width="2"/><circle cx="317" cy="369" r="5" fill="#E65100" stroke="#fff" stroke-width="1.5"/><circle cx="812" cy="410" r="16" fill="#E65100"/><text x="812" y="416" text-anchor="middle" fill="#fff" font-weight="700" font-size="16">3</text><text x="840" y="406" font-weight="700" font-size="19">Motherboard</text><text x="840" y="429" fill="#55657a" font-size="15">CPU, memory, PMIC, RF under metal shields</text>
+  <polyline points="591,532 760,520 790,520" fill="none" stroke="#E65100" stroke-width="2"/><circle cx="591" cy="532" r="5" fill="#E65100" stroke="#fff" stroke-width="1.5"/><circle cx="812" cy="520" r="16" fill="#E65100"/><text x="812" y="526" text-anchor="middle" fill="#fff" font-weight="700" font-size="16">4</text><text x="840" y="516" font-weight="700" font-size="19">Battery</text><text x="840" y="539" fill="#55657a" font-size="15">Lithium cell with protection board</text>
+  <polyline points="620,606 760,630 790,630" fill="none" stroke="#E65100" stroke-width="2"/><circle cx="620" cy="606" r="5" fill="#E65100" stroke="#fff" stroke-width="1.5"/><circle cx="812" cy="630" r="16" fill="#E65100"/><text x="812" y="636" text-anchor="middle" fill="#fff" font-weight="700" font-size="16">5</text><text x="840" y="626" font-weight="700" font-size="19">Sub-board</text><text x="840" y="649" fill="#55657a" font-size="15">Charging port, main mic, vibration</text>
+  <polyline points="560,764 760,750 790,750" fill="none" stroke="#E65100" stroke-width="2"/><circle cx="560" cy="764" r="5" fill="#E65100" stroke="#fff" stroke-width="1.5"/><circle cx="812" cy="750" r="16" fill="#E65100"/><text x="812" y="756" text-anchor="middle" fill="#fff" font-weight="700" font-size="16">6</text><text x="840" y="746" font-weight="700" font-size="19">Back cover + cameras</text><text x="840" y="769" fill="#55657a" font-size="15">Glass or plastic, camera lenses</text>
+  </g>
+  <text x="40" y="832" font-size="15" fill="#55657a">Hardware repair means finding and fixing faults in these physical parts: replacing a part, or repairing the board itself.</text>
+</svg>

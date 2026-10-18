@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720" font-family="Inter, DejaVu Sans, sans-serif">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4caf50"/><stop offset="1" stop-color="#2e7d32"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e88e5"/><stop offset="1" stop-color="#1565c0"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4511e"/><stop offset="1" stop-color="#c62828"/></linearGradient>
+    <linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7d46"/><stop offset="1" stop-color="#1b5631"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa4ad"/><stop offset=".5" stop-color="#eef1f3"/><stop offset="1" stop-color="#8a949d"/></linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#0b1a2b" flood-opacity=".22"/></filter>
+    <marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0D2847"/></marker>
+  </defs>
+  <rect width="1200" height="720" fill="#fff"/>
+  <text x="40" y="52" font-size="30" font-weight="700" fill="#0D2847">The three levels of hardware repair</text>
+  <text x="40" y="84" font-size="17" fill="#55657a">Each level needs more skill and better tools, and each pays more. Most technicians start at Level 1.</text>
+
+  <!-- floor -->
+  <line x1="40" y1="640" x2="1080" y2="640" stroke="#cfd8dc" stroke-width="2"/>
+
+  <!-- STEP 1 -->
+  <g filter="url(#sh)"><path d="M60 640 V480 Q60 468 72 468 H392 Q404 468 404 480 V640 Z" fill="url(#g1)"/></g>
+  <text x="80" y="500" font-size="15" font-weight="700" fill="#e8f5e9" letter-spacing="2">LEVEL 1</text>
+  <text x="80" y="530" font-size="24" font-weight="700" fill="#fff">Part replacement</text>
+  <text x="80" y="557" font-size="15" fill="#e8f5e9">Screens, batteries, charging</text>
+  <text x="80" y="578" font-size="15" fill="#e8f5e9">boards, back glass, speakers</text>
+  <text x="80" y="606" font-size="14" fill="#c8e6c9">Tools: screwdrivers, opening tools,</text>
+  <text x="80" y="626" font-size="14" fill="#c8e6c9">heat pad, glue</text>
+  <!-- icon: phone + screwdriver -->
+  <g transform="translate(150,306)">
+    <rect x="0" y="0" width="92" height="150" rx="16" fill="#1d2630" stroke="#0b1118" stroke-width="3"/>
+    <rect x="7" y="9" width="78" height="132" rx="10" fill="#4fc3f7"/>
+    <path d="M14 30 L44 64 L28 80 L70 128" stroke="#fff" stroke-width="2.5" fill="none" opacity=".9"/>
+    <path d="M50 20 L60 40 L48 52" stroke="#fff" stroke-width="2" fill="none" opacity=".7"/>
+    <g transform="translate(104,30) rotate(28)">
+      <rect x="0" y="0" width="22" height="60" rx="8" fill="#e65100"/><rect x="2" y="8" width="18" height="4" fill="#bf360c"/><rect x="2" y="18" width="18" height="4" fill="#bf360c"/>
+      <rect x="8" y="60" width="6" height="56" fill="url(#metal)"/><path d="M8 116 h6 l-3 10 z" fill="#78909c"/>
+    </g>
+  </g>
+
+  <!-- STEP 2 -->
+  <g filter="url(#sh)"><path d="M404 640 V380 Q404 368 416 368 H736 Q748 368 748 380 V640 Z" fill="url(#g2)"/></g>
+  <text x="424" y="410" font-size="15" font-weight="700" fill="#e3f2fd" letter-spacing="2">LEVEL 2</text>
+  <text x="424" y="442" font-size="24" font-weight="700" fill="#fff">Component-level</text>
+  <text x="424" y="472" font-size="15" fill="#e3f2fd">Fuses, coils, capacitors,</text>
+  <text x="424" y="493" font-size="15" fill="#e3f2fd">short removal, jumper wires</text>
+  <text x="424" y="540" font-size="14" fill="#bbdefb">Tools: multimeter, DC power supply,</text>
+  <text x="424" y="560" font-size="14" fill="#bbdefb">microscope, soldering iron, hot air</text>
+  <!-- icon: board + capacitor + probes -->
+  <g transform="translate(450,200)">
+    <rect x="0" y="40" width="220" height="110" rx="10" fill="url(#pcb)" stroke="#123d22" stroke-width="2"/>
+    <g stroke="#d4af37" stroke-width="3" fill="none" opacity=".8"><path d="M20 70 H90 V120 H200"/><path d="M20 130 H70"/><path d="M130 60 V100 H200"/></g>
+    <rect x="96" y="84" width="34" height="18" rx="2" fill="#8d6e4a" stroke="#4e342e"/><rect x="96" y="84" width="7" height="18" fill="#cfd8dc"/><rect x="123" y="84" width="7" height="18" fill="#cfd8dc"/>
+    <rect x="150" y="56" width="22" height="12" fill="#212121"/><rect x="150" y="56" width="5" height="12" fill="#cfd8dc"/><rect x="167" y="56" width="5" height="12" fill="#cfd8dc"/>
+    <!-- probes -->
+    <path d="M100 84 L70 10" stroke="#c62828" stroke-width="6" stroke-linecap="round"/><path d="M100 84 L94 70" stroke="#90a4ae" stroke-width="3"/>
+    <path d="M127 84 L160 6" stroke="#212121" stroke-width="6" stroke-linecap="round"/><path d="M127 84 L133 70" stroke="#90a4ae" stroke-width="3"/>
+  </g>
+
+  <!-- STEP 3 -->
+  <g filter="url(#sh)"><path d="M748 640 V260 Q748 248 760 248 H1068 Q1080 248 1080 260 V640 Z" fill="url(#g3)"/></g>
+  <text x="768" y="290" font-size="15" font-weight="700" fill="#ffebee" letter-spacing="2">LEVEL 3</text>
+  <text x="768" y="322" font-size="24" font-weight="700" fill="#fff">Chip-level</text>
+  <text x="768" y="352" font-size="15" fill="#ffebee">PMIC, charging IC, audio IC,</text>
+  <text x="768" y="373" font-size="15" fill="#ffebee">RF chips, memory, reballing,</text>
+  <text x="768" y="394" font-size="15" fill="#ffebee">sandwich boards</text>
+  <text x="768" y="440" font-size="14" fill="#ffcdd2">Tools: preheater, stencils, solder</text>
+  <text x="768" y="460" font-size="14" fill="#ffcdd2">paste, good microscope, practice</text>
+  <!-- icon: hot air nozzle over BGA chip -->
+  <g transform="translate(840,96)">
+    <rect x="44" y="0" width="34" height="56" rx="6" fill="#455a64"/><path d="M40 56 h42 l-8 34 h-26 z" fill="url(#metal)" stroke="#607d8b"/>
+    <g stroke="#ff7043" stroke-width="3" stroke-linecap="round" opacity=".9"><path d="M54 96 l-6 22"/><path d="M61 96 v24"/><path d="M68 96 l6 22"/></g>
+    <rect x="18" y="128" width="86" height="14" rx="2" fill="#263238"/>
+    <g fill="#cfd8dc" stroke="#78909c"><circle cx="28" cy="146" r="4"/><circle cx="40" cy="146" r="4"/><circle cx="52" cy="146" r="4"/><circle cx="64" cy="146" r="4"/><circle cx="76" cy="146" r="4"/><circle cx="88" cy="146" r="4"/><circle cx="100" cy="146" r="4"/></g>
+    <text x="61" y="139" font-size="9" fill="#90a4ae" text-anchor="middle" font-weight="700">PMIC</text>
+  </g>
+
+  <!-- arrow -->
+  <path d="M1120 630 V270" stroke="#0D2847" stroke-width="3" marker-end="url(#ah)"/>
+  <text x="1150" y="450" font-size="15" fill="#0D2847" font-weight="700" transform="rotate(-90 1150 450)" text-anchor="middle">skill, tools and earnings</text>
+  <text x="40" y="690" font-size="15" fill="#55657a">This book takes you step by step from Level 1 to Level 3.</text>
+</svg>
