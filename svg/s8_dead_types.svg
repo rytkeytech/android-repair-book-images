@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" font-family="Inter, DejaVu Sans, sans-serif"><defs>
+<linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7d46"/><stop offset="1" stop-color="#1b5631"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa4ad"/><stop offset=".5" stop-color="#eef1f3"/><stop offset="1" stop-color="#8a949d"/></linearGradient>
+<linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3f5f7"/><stop offset="1" stop-color="#aab3bb"/></linearGradient>
+<linearGradient id="dev" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1f3f5"/><stop offset="1" stop-color="#b8c3cb"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a5d68"/><stop offset="1" stop-color="#263238"/></linearGradient>
+<linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd54f"/><stop offset="1" stop-color="#ffb300"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a4a5c"/><stop offset=".5" stop-color="#121a24"/><stop offset="1" stop-color="#05080c"/></linearGradient>
+<linearGradient id="batt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b4652"/><stop offset="1" stop-color="#1f262e"/></linearGradient>
+<linearGradient id="copper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8c06a"/><stop offset="1" stop-color="#b8892e"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#64b5f6"/><stop offset="1" stop-color="#1e88e5"/></linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0b1a2b" flood-opacity=".18"/></filter>
+<filter id="sh2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1a2b" flood-opacity=".25"/></filter>
+<marker id="a0D2847" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0D2847"/></marker><marker id="aE65100" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#E65100"/></marker><marker id="a1565C0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1565C0"/></marker><marker id="a2E7D32" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2E7D32"/></marker><marker id="aC62828" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#C62828"/></marker><marker id="a6A1B9A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6A1B9A"/></marker><marker id="a00796B" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#00796B"/></marker><marker id="a546E7A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#546E7A"/></marker><marker id="a1d1d1f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1d1d1f"/></marker><marker id="aff5722" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ff5722"/></marker><marker id="affffff" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ffffff"/></marker></defs><rect width="1200" height="640" fill="#fff"/>
+<text x="40" y="52" font-size="30" font-weight="700" fill="#0D2847">Dead, no display, or boot loop? Sort the phone first</text>
+<text x="40" y="84" font-size="17" fill="#55657a">Each one needs a different path. Do not open the phone until you know which one you have.</text>
+<rect x="430" y="110" width="340" height="64" rx="12" fill="#0D2847" stroke="none" stroke-width="0" opacity="1" filter="url(#sh)"/><text x="600.0" y="147.95" font-size="17" fill="#fff" font-weight="700" text-anchor="middle">Press power, plug in the charger</text>
+<path d="M600 176 C600 210 220 200 220 232" fill="none" stroke="#C62828" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" opacity="1" marker-end="url(#aC62828)"/>
+<rect x="40" y="240" width="360" height="340" rx="18" fill="#fff" stroke="#ef9a9a" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="40" y="240" width="360" height="58" rx="18" fill="#C62828" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="40" y="280" width="360" height="18" rx="0" fill="#C62828" stroke="none" stroke-width="2" opacity="1"/>
+<text x="220" y="278" font-size="20" fill="#fff" font-weight="800" text-anchor="middle">DEAD</text>
+<g transform="translate(70,320) rotate(0) scale(1)"><rect x="0" y="0" width="80" height="150" rx="11.200000000000001" fill="#1d2630" stroke="#0b1118" stroke-width="3" opacity="1" filter="url(#sh)"/><rect x="7" y="9" width="66" height="132" rx="7.199999999999999" fill="#0b1118" stroke="none" stroke-width="0" opacity="1"/><circle cx="40.0" cy="18" r="3" fill="#0b1118" stroke="none" stroke-width="2"/></g>
+<text x="170" y="350" font-size="15.5" fill="#263238" font-weight="600" text-anchor="start"><tspan x="170" dy="0">No vibration, no sound,</tspan><tspan x="170" dy="20.925">no heat, 0 mA</tspan></text>
+<line x1="60" y1="494" x2="380" y2="494" stroke="#eceff1" stroke-width="2" stroke-linecap="round"/>
+<text x="60" y="524" font-size="14" fill="#C62828" font-weight="800" text-anchor="start">Look at:</text>
+<text x="140" y="524" font-size="15" fill="#263238" font-weight="400" text-anchor="start"><tspan x="140" dy="0">Power path, short,</tspan><tspan x="140" dy="20.25">PMIC, CPU</tspan></text>
+<path d="M600 176 C600 210 600 200 600 232" fill="none" stroke="#E65100" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" opacity="1" marker-end="url(#aE65100)"/>
+<rect x="420" y="240" width="360" height="340" rx="18" fill="#fff" stroke="#ffcc80" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="420" y="240" width="360" height="58" rx="18" fill="#E65100" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="420" y="280" width="360" height="18" rx="0" fill="#E65100" stroke="none" stroke-width="2" opacity="1"/>
+<text x="600" y="278" font-size="20" fill="#fff" font-weight="800" text-anchor="middle">NO DISPLAY</text>
+<g transform="translate(450,320) rotate(0) scale(1)"><rect x="0" y="0" width="80" height="150" rx="11.200000000000001" fill="#1d2630" stroke="#0b1118" stroke-width="3" opacity="1" filter="url(#sh)"/><rect x="7" y="9" width="66" height="132" rx="7.199999999999999" fill="#0b1118" stroke="none" stroke-width="0" opacity="1"/><circle cx="40.0" cy="18" r="3" fill="#0b1118" stroke="none" stroke-width="2"/></g>
+<text x="550" y="350" font-size="15.5" fill="#263238" font-weight="600" text-anchor="start"><tspan x="550" dy="0">Vibrates or rings,</tspan><tspan x="550" dy="20.925">PC detects it,</tspan><tspan x="550" dy="20.925">screen stays black</tspan></text>
+<path d="M440 340 q-8 10 0 20 M432 334 q-14 16 0 32" fill="none" stroke="#E65100" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<line x1="440" y1="494" x2="760" y2="494" stroke="#eceff1" stroke-width="2" stroke-linecap="round"/>
+<text x="440" y="524" font-size="14" fill="#E65100" font-weight="800" text-anchor="start">Look at:</text>
+<text x="520" y="524" font-size="15" fill="#263238" font-weight="400" text-anchor="start"><tspan x="520" dy="0">Screen, connector,</tspan><tspan x="520" dy="20.25">backlight, display line</tspan></text>
+<path d="M600 176 C600 210 980 200 980 232" fill="none" stroke="#6A1B9A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" opacity="1" marker-end="url(#a6A1B9A)"/>
+<rect x="800" y="240" width="360" height="340" rx="18" fill="#fff" stroke="#ce93d8" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="800" y="240" width="360" height="58" rx="18" fill="#6A1B9A" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="800" y="280" width="360" height="18" rx="0" fill="#6A1B9A" stroke="none" stroke-width="2" opacity="1"/>
+<text x="980" y="278" font-size="20" fill="#fff" font-weight="800" text-anchor="middle">BOOT LOOP</text>
+<g transform="translate(830,320) rotate(0) scale(1)"><rect x="0" y="0" width="80" height="150" rx="11.200000000000001" fill="#1d2630" stroke="#0b1118" stroke-width="3" opacity="1" filter="url(#sh)"/><rect x="7" y="9" width="66" height="132" rx="7.199999999999999" fill="#4fc3f7" stroke="none" stroke-width="0" opacity="1"/><circle cx="40.0" cy="18" r="3" fill="#0b1118" stroke="none" stroke-width="2"/></g>
+<text x="930" y="350" font-size="15.5" fill="#263238" font-weight="600" text-anchor="start"><tspan x="930" dy="0">Logo shows, then</tspan><tspan x="930" dy="20.925">restarts again</tspan><tspan x="930" dy="20.925">and again</tspan></text>
+<path d="M870 395 a14 14 0 1 1 -10 -14" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<path d="M856 375 l6 6 l-8 2" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<line x1="820" y1="494" x2="1140" y2="494" stroke="#eceff1" stroke-width="2" stroke-linecap="round"/>
+<text x="820" y="524" font-size="14" fill="#6A1B9A" font-weight="800" text-anchor="start">Look at:</text>
+<text x="900" y="524" font-size="15" fill="#263238" font-weight="400" text-anchor="start"><tspan x="900" dy="0">Software, battery,</tspan><tspan x="900" dy="20.25">storage, stuck button</tspan></text></svg>

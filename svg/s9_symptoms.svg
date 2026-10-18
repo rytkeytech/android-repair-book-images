@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" font-family="Inter, DejaVu Sans, sans-serif"><defs>
+<linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7d46"/><stop offset="1" stop-color="#1b5631"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa4ad"/><stop offset=".5" stop-color="#eef1f3"/><stop offset="1" stop-color="#8a949d"/></linearGradient>
+<linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3f5f7"/><stop offset="1" stop-color="#aab3bb"/></linearGradient>
+<linearGradient id="dev" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1f3f5"/><stop offset="1" stop-color="#b8c3cb"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a5d68"/><stop offset="1" stop-color="#263238"/></linearGradient>
+<linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd54f"/><stop offset="1" stop-color="#ffb300"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a4a5c"/><stop offset=".5" stop-color="#121a24"/><stop offset="1" stop-color="#05080c"/></linearGradient>
+<linearGradient id="batt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b4652"/><stop offset="1" stop-color="#1f262e"/></linearGradient>
+<linearGradient id="copper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8c06a"/><stop offset="1" stop-color="#b8892e"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#64b5f6"/><stop offset="1" stop-color="#1e88e5"/></linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0b1a2b" flood-opacity=".18"/></filter>
+<filter id="sh2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1a2b" flood-opacity=".25"/></filter>
+<marker id="a0D2847" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0D2847"/></marker><marker id="aE65100" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#E65100"/></marker><marker id="a1565C0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1565C0"/></marker><marker id="a2E7D32" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2E7D32"/></marker><marker id="aC62828" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#C62828"/></marker><marker id="a6A1B9A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6A1B9A"/></marker><marker id="a00796B" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#00796B"/></marker><marker id="a546E7A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#546E7A"/></marker><marker id="a1d1d1f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1d1d1f"/></marker><marker id="aff5722" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ff5722"/></marker><marker id="affffff" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ffffff"/></marker></defs><rect width="1200" height="600" fill="#fff"/>
+<text x="40" y="52" font-size="30" font-weight="700" fill="#0D2847">Charging symptoms and their usual causes</text>
+<text x="40" y="84" font-size="17" fill="#55657a">Always start with the cheapest checks: clean the port, try a known-good cable and charger, then a good battery.</text>
+<rect x="40" y="120" width="550" height="128" rx="18" fill="#fff" stroke="#ef9a9a" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="40" y="120" width="12" height="128" rx="6" fill="#C62828" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="102" cy="184" r="32" fill="#ffebee" stroke="none" stroke-width="2"/>
+<path d="M98 164 l-10 22 h12 l-6 20 l18 -26 h-12 l8 -16 z" fill="#C62828" stroke="#C62828" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="152" y="174" font-size="20" fill="#C62828" font-weight="700" text-anchor="start">Not charging at all</text>
+<text x="152" y="206" font-size="15.5" fill="#263238" font-weight="400" text-anchor="start">Port, cable, fuse, OVP, charging IC</text>
+<rect x="610" y="120" width="550" height="128" rx="18" fill="#fff" stroke="#ffcc80" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="610" y="120" width="12" height="128" rx="6" fill="#E65100" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="672" cy="184" r="32" fill="#fff3e0" stroke="none" stroke-width="2"/>
+<path d="M668 164 l-10 22 h12 l-6 20 l18 -26 h-12 l8 -16 z" fill="#E65100" stroke="#E65100" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="722" y="174" font-size="20" fill="#E65100" font-weight="700" text-anchor="start">Charging slowly</text>
+<text x="722" y="206" font-size="15.5" fill="#263238" font-weight="400" text-anchor="start">Dirty port, weak cable, fake charger, CC pins</text>
+<rect x="40" y="270" width="550" height="128" rx="18" fill="#fff" stroke="#ffcc80" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="40" y="270" width="12" height="128" rx="6" fill="#E65100" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="102" cy="334" r="32" fill="#fff3e0" stroke="none" stroke-width="2"/>
+<path d="M98 314 l-10 22 h12 l-6 20 l18 -26 h-12 l8 -16 z" fill="#E65100" stroke="#E65100" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="152" y="324" font-size="20" fill="#E65100" font-weight="700" text-anchor="start">Charges only at an angle</text>
+<text x="152" y="356" font-size="15.5" fill="#263238" font-weight="400" text-anchor="start">Worn or loose port, cracked solder joint</text>
+<rect x="610" y="270" width="550" height="128" rx="18" fill="#fff" stroke="#ce93d8" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="610" y="270" width="12" height="128" rx="6" fill="#6A1B9A" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="672" cy="334" r="32" fill="#f3e5f5" stroke="none" stroke-width="2"/>
+<path d="M668 314 l-10 22 h12 l-6 20 l18 -26 h-12 l8 -16 z" fill="#6A1B9A" stroke="#6A1B9A" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="722" y="324" font-size="20" fill="#6A1B9A" font-weight="700" text-anchor="start">Shows charging, % not rising</text>
+<text x="722" y="356" font-size="15.5" fill="#263238" font-weight="400" text-anchor="start">Bad battery, BTEMP / BSI line, fuel gauge</text>
+<rect x="40" y="420" width="550" height="128" rx="18" fill="#fff" stroke="#90caf9" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="40" y="420" width="12" height="128" rx="6" fill="#1565C0" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="102" cy="484" r="32" fill="#e3f2fd" stroke="none" stroke-width="2"/>
+<path d="M98 464 l-10 22 h12 l-6 20 l18 -26 h-12 l8 -16 z" fill="#1565C0" stroke="#1565C0" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="152" y="474" font-size="20" fill="#1565C0" font-weight="700" text-anchor="start">Charging icon on and off</text>
+<text x="152" y="506" font-size="15.5" fill="#263238" font-weight="400" text-anchor="start">Port, cable, OVP, liquid damage</text>
+<rect x="610" y="420" width="550" height="128" rx="18" fill="#fff" stroke="#ef9a9a" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="610" y="420" width="12" height="128" rx="6" fill="#C62828" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="672" cy="484" r="32" fill="#ffebee" stroke="none" stroke-width="2"/>
+<path d="M668 464 l-10 22 h12 l-6 20 l18 -26 h-12 l8 -16 z" fill="#C62828" stroke="#C62828" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="722" y="474" font-size="20" fill="#C62828" font-weight="700" text-anchor="start">Phone hot while charging</text>
+<text x="722" y="506" font-size="15.5" fill="#263238" font-weight="400" text-anchor="start">Short on VBUS or VBAT, battery, charging IC</text></svg>
