@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Inter, DejaVu Sans, sans-serif"><defs>
+<linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7d46"/><stop offset="1" stop-color="#1b5631"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa4ad"/><stop offset=".5" stop-color="#eef1f3"/><stop offset="1" stop-color="#8a949d"/></linearGradient>
+<linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3f5f7"/><stop offset="1" stop-color="#aab3bb"/></linearGradient>
+<linearGradient id="dev" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1f3f5"/><stop offset="1" stop-color="#b8c3cb"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a5d68"/><stop offset="1" stop-color="#263238"/></linearGradient>
+<linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd54f"/><stop offset="1" stop-color="#ffb300"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a4a5c"/><stop offset=".5" stop-color="#121a24"/><stop offset="1" stop-color="#05080c"/></linearGradient>
+<linearGradient id="batt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b4652"/><stop offset="1" stop-color="#1f262e"/></linearGradient>
+<linearGradient id="copper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8c06a"/><stop offset="1" stop-color="#b8892e"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#64b5f6"/><stop offset="1" stop-color="#1e88e5"/></linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0b1a2b" flood-opacity=".18"/></filter>
+<filter id="sh2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1a2b" flood-opacity=".25"/></filter>
+<marker id="a0D2847" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0D2847"/></marker><marker id="aE65100" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#E65100"/></marker><marker id="a1565C0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1565C0"/></marker><marker id="a2E7D32" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2E7D32"/></marker><marker id="aC62828" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#C62828"/></marker><marker id="a6A1B9A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6A1B9A"/></marker><marker id="a00796B" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#00796B"/></marker><marker id="a546E7A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#546E7A"/></marker><marker id="a1d1d1f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1d1d1f"/></marker><marker id="aff5722" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ff5722"/></marker><marker id="affffff" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ffffff"/></marker></defs><rect width="1200" height="700" fill="#fff"/>
+<text x="40" y="52" font-size="30" font-weight="700" fill="#0D2847">Figure 4.4  Example phone schematic: charging input</text>
+<text x="40" y="84" font-size="17" fill="#55657a">Read it left to right, the way the current flows.</text>
+<defs><pattern id="g40100" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0 V20 H0" stroke="#e3e8ef" stroke-width="1" fill="none"/></pattern></defs><rect x="40" y="100" width="1120" height="360" rx="14" fill="#fbfcfe" stroke="#c5cfe0" stroke-width="2" opacity="1" filter="url(#sh)"/><rect x="40" y="100" width="1120" height="360" rx="14" fill="url(#g40100)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="70" y="170" width="90" height="170" rx="3" fill="#fff" stroke="#1a237e" stroke-width="2.5" opacity="1"/>
+<text x="115" y="160" font-size="16" fill="#1a237e" font-weight="800" text-anchor="middle">J1</text>
+<text x="150" y="226" font-size="12" fill="#1a237e" font-weight="600" text-anchor="end">VBUS</text>
+<text x="150" y="306" font-size="12" fill="#1a237e" font-weight="600" text-anchor="end">GND</text>
+<text x="115" y="365" font-size="13" fill="#1565C0" font-weight="600" text-anchor="middle">USB port</text>
+<line x1="160" y1="220" x2="220" y2="220" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="220" y="211" width="44" height="18" rx="2" fill="#fff" stroke="#1a237e" stroke-width="2.5" opacity="1"/>
+<text x="242" y="200" font-size="15" fill="#1a237e" font-weight="800" text-anchor="middle">F1</text>
+<text x="242" y="250" font-size="13" fill="#1565C0" font-weight="600" text-anchor="middle">3 A</text>
+<line x1="264" y1="220" x2="460" y2="220" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M160 300 L190 300 L190 330" fill="none" stroke="#1a237e" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<line x1="190" y1="330" x2="190" y2="342" stroke="#1a237e" stroke-width="2" stroke-linecap="round"/><line x1="176" y1="342" x2="204" y2="342" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><line x1="181" y1="348" x2="199" y2="348" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><line x1="186" y1="354" x2="194" y2="354" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/>
+<text x="320" y="208" font-size="13" fill="#2E7D32" font-weight="700" text-anchor="middle">VBUS_IN</text>
+<circle cx="310" cy="220" r="5" fill="#1a237e" stroke="none" stroke-width="2"/>
+<line x1="310" y1="220" x2="310" y2="230" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><path d="M298 252 L322 252 L310 232 Z" fill="#1a237e" stroke="#1a237e" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" opacity="1"/><line x1="298" y1="232" x2="322" y2="232" stroke="#1a237e" stroke-width="3" stroke-linecap="round"/><line x1="310" y1="252" x2="310" y2="264" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><line x1="298" y1="232" x2="294" y2="227" stroke="#1a237e" stroke-width="3" stroke-linecap="round"/><line x1="322" y1="232" x2="326" y2="237" stroke="#1a237e" stroke-width="3" stroke-linecap="round"/>
+<line x1="310" y1="264" x2="310" y2="276" stroke="#1a237e" stroke-width="2" stroke-linecap="round"/><line x1="296" y1="276" x2="324" y2="276" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><line x1="301" y1="282" x2="319" y2="282" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><line x1="306" y1="288" x2="314" y2="288" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/>
+<text x="326" y="250" font-size="14" fill="#1a237e" font-weight="800" text-anchor="start">D1</text>
+<text x="326" y="268" font-size="12" fill="#1565C0" font-weight="600" text-anchor="start">TVS</text>
+<circle cx="380" cy="220" r="5" fill="#1a237e" stroke="none" stroke-width="2"/>
+<line x1="380" y1="220" x2="380" y2="234" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><line x1="366" y1="234" x2="394" y2="234" stroke="#1a237e" stroke-width="3" stroke-linecap="round"/><line x1="366" y1="242" x2="394" y2="242" stroke="#1a237e" stroke-width="3" stroke-linecap="round"/><line x1="380" y1="242" x2="380" y2="256" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="380" y1="256" x2="380" y2="268" stroke="#1a237e" stroke-width="2" stroke-linecap="round"/><line x1="366" y1="268" x2="394" y2="268" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><line x1="371" y1="274" x2="389" y2="274" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><line x1="376" y1="280" x2="384" y2="280" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/>
+<text x="398" y="246" font-size="14" fill="#1a237e" font-weight="800" text-anchor="start">C1</text>
+<text x="398" y="264" font-size="12" fill="#1565C0" font-weight="600" text-anchor="start">1 µF</text>
+<rect x="460" y="190" width="120" height="110" rx="3" fill="#fff" stroke="#1a237e" stroke-width="2.5" opacity="1"/>
+<text x="520" y="180" font-size="15" fill="#1a237e" font-weight="800" text-anchor="middle">U2  OVP</text>
+<text x="470" y="226" font-size="12" fill="#1a237e" font-weight="600" text-anchor="start">IN</text>
+<text x="570" y="226" font-size="12" fill="#1a237e" font-weight="600" text-anchor="end">OUT</text>
+<text x="520" y="290" font-size="12" fill="#1a237e" font-weight="600" text-anchor="middle">GND</text>
+<line x1="520" y1="300" x2="520" y2="320" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="520" y1="320" x2="520" y2="332" stroke="#1a237e" stroke-width="2" stroke-linecap="round"/><line x1="506" y1="332" x2="534" y2="332" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><line x1="511" y1="338" x2="529" y2="338" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><line x1="516" y1="344" x2="524" y2="344" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="580" y1="220" x2="840" y2="220" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/>
+<text x="660" y="208" font-size="13" fill="#2E7D32" font-weight="700" text-anchor="middle">CHG_IN</text>
+<circle cx="650" cy="220" r="5" fill="#1a237e" stroke="none" stroke-width="2"/>
+<line x1="650" y1="220" x2="650" y2="234" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><line x1="636" y1="234" x2="664" y2="234" stroke="#1a237e" stroke-width="3" stroke-linecap="round"/><line x1="636" y1="242" x2="664" y2="242" stroke="#1a237e" stroke-width="3" stroke-linecap="round"/><line x1="650" y1="242" x2="650" y2="256" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="650" y1="256" x2="650" y2="268" stroke="#1a237e" stroke-width="2" stroke-linecap="round"/><line x1="636" y1="268" x2="664" y2="268" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><line x1="641" y1="274" x2="659" y2="274" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><line x1="646" y1="280" x2="654" y2="280" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/>
+<text x="668" y="246" font-size="14" fill="#1a237e" font-weight="800" text-anchor="start">C2</text>
+<text x="668" y="264" font-size="12" fill="#1565C0" font-weight="600" text-anchor="start">10 µF</text>
+<circle cx="730" cy="220" r="5" fill="#1a237e" stroke="none" stroke-width="2"/>
+<line x1="730" y1="220" x2="730" y2="252" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="730" cy="262" r="10" fill="#fff" stroke="#1a237e" stroke-width="2.5"/>
+<text x="746" y="268" font-size="13" fill="#1a237e" font-weight="800" text-anchor="start">TP1</text>
+<rect x="840" y="170" width="150" height="200" rx="3" fill="#fff" stroke="#1a237e" stroke-width="2.5" opacity="1"/>
+<text x="915" y="160" font-size="15" fill="#1a237e" font-weight="800" text-anchor="middle">U3  Charging IC</text>
+<text x="850" y="226" font-size="12" fill="#1a237e" font-weight="600" text-anchor="start">VBUS</text>
+<text x="980" y="226" font-size="12" fill="#1a237e" font-weight="600" text-anchor="end">VBAT</text>
+<text x="980" y="316" font-size="12" fill="#1a237e" font-weight="600" text-anchor="end">VSYS</text>
+<line x1="990" y1="220" x2="1020" y2="220" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="1000" y1="220" x2="1020" y2="220" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><path d="M1020 209 H1070 L1082 220 L1070 231 H1020 Z" fill="#e3f2fd" stroke="#1565C0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="1"/><text x="1028" y="225" font-size="14" fill="#1565C0" font-weight="700" text-anchor="start">VBAT</text>
+<line x1="990" y1="310" x2="1020" y2="310" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="1000" y1="310" x2="1020" y2="310" stroke="#1a237e" stroke-width="2.5" stroke-linecap="round"/><path d="M1020 299 H1097 L1109 310 L1097 321 H1020 Z" fill="#e3f2fd" stroke="#1565C0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="1"/><text x="1028" y="315" font-size="14" fill="#1565C0" font-weight="700" text-anchor="start">VPH_PWR</text>
+<circle cx="70" cy="500" r="15" fill="#1565C0" stroke="#fff" stroke-width="2"/><text x="70" y="505.04" font-size="14" fill="#fff" font-weight="700" text-anchor="middle">1</text>
+<text x="98" y="506" font-size="16.5" fill="#263238" font-weight="400" text-anchor="start">Charger 5 V enters J1 pin VBUS.</text>
+<circle cx="70" cy="546" r="15" fill="#1565C0" stroke="#fff" stroke-width="2"/><text x="70" y="551.04" font-size="14" fill="#fff" font-weight="700" text-anchor="middle">2</text>
+<text x="98" y="552" font-size="16.5" fill="#263238" font-weight="400" text-anchor="start">Fuse F1, TVS diode D1 and C1 protect and filter VBUS_IN.</text>
+<circle cx="70" cy="592" r="15" fill="#1565C0" stroke="#fff" stroke-width="2"/><text x="70" y="597.04" font-size="14" fill="#fff" font-weight="700" text-anchor="middle">3</text>
+<text x="98" y="598" font-size="16.5" fill="#263238" font-weight="400" text-anchor="start">OVP chip U2 blocks voltage that is too high. Its output is CHG_IN (test point TP1).</text>
+<circle cx="70" cy="638" r="15" fill="#1565C0" stroke="#fff" stroke-width="2"/><text x="70" y="643.04" font-size="14" fill="#fff" font-weight="700" text-anchor="middle">4</text>
+<text x="98" y="644" font-size="16.5" fill="#263238" font-weight="400" text-anchor="start">Charging IC U3 charges the battery (VBAT) and powers the phone (VPH_PWR).</text></svg>

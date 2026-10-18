@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720" font-family="Inter, DejaVu Sans, sans-serif"><defs>
+<linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7d46"/><stop offset="1" stop-color="#1b5631"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa4ad"/><stop offset=".5" stop-color="#eef1f3"/><stop offset="1" stop-color="#8a949d"/></linearGradient>
+<linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3f5f7"/><stop offset="1" stop-color="#aab3bb"/></linearGradient>
+<linearGradient id="dev" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1f3f5"/><stop offset="1" stop-color="#b8c3cb"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a5d68"/><stop offset="1" stop-color="#263238"/></linearGradient>
+<linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd54f"/><stop offset="1" stop-color="#ffb300"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a4a5c"/><stop offset=".5" stop-color="#121a24"/><stop offset="1" stop-color="#05080c"/></linearGradient>
+<linearGradient id="batt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b4652"/><stop offset="1" stop-color="#1f262e"/></linearGradient>
+<linearGradient id="copper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8c06a"/><stop offset="1" stop-color="#b8892e"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#64b5f6"/><stop offset="1" stop-color="#1e88e5"/></linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0b1a2b" flood-opacity=".18"/></filter>
+<filter id="sh2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1a2b" flood-opacity=".25"/></filter>
+<marker id="a0D2847" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0D2847"/></marker><marker id="aE65100" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#E65100"/></marker><marker id="a1565C0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1565C0"/></marker><marker id="a2E7D32" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2E7D32"/></marker><marker id="aC62828" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#C62828"/></marker><marker id="a6A1B9A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6A1B9A"/></marker><marker id="a00796B" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#00796B"/></marker><marker id="a546E7A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#546E7A"/></marker><marker id="a1d1d1f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1d1d1f"/></marker><marker id="aff5722" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ff5722"/></marker><marker id="affffff" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ffffff"/></marker></defs><rect width="1200" height="720" fill="#fff"/>
+<text x="40" y="52" font-size="30" font-weight="700" fill="#0D2847">Typical sections of a phone motherboard</text>
+<text x="40" y="84" font-size="17" fill="#55657a">Every brand places them differently, but every phone has all of them.</text>
+<rect x="60" y="110" width="520" height="580" rx="26" fill="url(#pcb)" stroke="#123d22" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="80" y="130" width="230" height="165" rx="14" fill="#6A1B9A" stroke="#ffffff55" stroke-width="2" opacity="0.92"/>
+<text x="195.0" y="190" font-size="16" fill="#fff" font-weight="800" text-anchor="middle">RF / NETWORK</text>
+<text x="195.0" y="222" font-size="14.5" fill="#ffffffdd" font-weight="400" text-anchor="middle"><tspan x="195.0" dy="0">transceiver, PAs,</tspan><tspan x="195.0" dy="19.575000000000003">antenna switch</tspan></text>
+<rect x="258" y="255" width="34" height="22" rx="3" fill="url(#shield)" stroke="none" stroke-width="0" opacity="0.85"/>
+<rect x="96" y="261" width="16" height="10" rx="1" fill="#cfd8dc" stroke="none" stroke-width="0" opacity="0.9"/>
+<rect x="118" y="261" width="16" height="10" rx="1" fill="#cfd8dc" stroke="none" stroke-width="0" opacity="0.9"/>
+<rect x="330" y="130" width="230" height="165" rx="14" fill="#00796B" stroke="#ffffff55" stroke-width="2" opacity="0.92"/>
+<text x="445.0" y="190" font-size="16" fill="#fff" font-weight="800" text-anchor="middle">CAMERAS + SENSORS</text>
+<text x="445.0" y="222" font-size="14.5" fill="#ffffffdd" font-weight="400" text-anchor="middle"><tspan x="445.0" dy="0">camera and</tspan><tspan x="445.0" dy="19.575000000000003">sensor connectors</tspan></text>
+<rect x="508" y="255" width="34" height="22" rx="3" fill="url(#shield)" stroke="none" stroke-width="0" opacity="0.85"/>
+<rect x="346" y="261" width="16" height="10" rx="1" fill="#cfd8dc" stroke="none" stroke-width="0" opacity="0.9"/>
+<rect x="368" y="261" width="16" height="10" rx="1" fill="#cfd8dc" stroke="none" stroke-width="0" opacity="0.9"/>
+<rect x="80" y="315" width="230" height="165" rx="14" fill="#0D2847" stroke="#ffffff55" stroke-width="2" opacity="0.92"/>
+<text x="195.0" y="375" font-size="16" fill="#fff" font-weight="800" text-anchor="middle">CPU + RAM + STORAGE</text>
+<text x="195.0" y="407" font-size="14.5" fill="#ffffffdd" font-weight="400" text-anchor="middle"><tspan x="195.0" dy="0">the brain and</tspan><tspan x="195.0" dy="19.575000000000003">its memory</tspan></text>
+<rect x="258" y="440" width="34" height="22" rx="3" fill="url(#shield)" stroke="none" stroke-width="0" opacity="0.85"/>
+<rect x="96" y="446" width="16" height="10" rx="1" fill="#cfd8dc" stroke="none" stroke-width="0" opacity="0.9"/>
+<rect x="118" y="446" width="16" height="10" rx="1" fill="#cfd8dc" stroke="none" stroke-width="0" opacity="0.9"/>
+<rect x="330" y="315" width="230" height="165" rx="14" fill="#E65100" stroke="#ffffff55" stroke-width="2" opacity="0.92"/>
+<text x="445.0" y="375" font-size="16" fill="#fff" font-weight="800" text-anchor="middle">POWER</text>
+<text x="445.0" y="407" font-size="14.5" fill="#ffffffdd" font-weight="400" text-anchor="middle"><tspan x="445.0" dy="0">PMIC, coils,</tspan><tspan x="445.0" dy="19.575000000000003">capacitors</tspan></text>
+<rect x="508" y="440" width="34" height="22" rx="3" fill="url(#shield)" stroke="none" stroke-width="0" opacity="0.85"/>
+<rect x="346" y="446" width="16" height="10" rx="1" fill="#cfd8dc" stroke="none" stroke-width="0" opacity="0.9"/>
+<rect x="368" y="446" width="16" height="10" rx="1" fill="#cfd8dc" stroke="none" stroke-width="0" opacity="0.9"/>
+<rect x="80" y="500" width="230" height="170" rx="14" fill="#C62828" stroke="#ffffff55" stroke-width="2" opacity="0.92"/>
+<text x="195.0" y="560" font-size="16" fill="#fff" font-weight="800" text-anchor="middle">CHARGING</text>
+<text x="195.0" y="592" font-size="14.5" fill="#ffffffdd" font-weight="400" text-anchor="middle"><tspan x="195.0" dy="0">OVP, charging IC,</tspan><tspan x="195.0" dy="19.575000000000003">battery connector</tspan></text>
+<rect x="258" y="630" width="34" height="22" rx="3" fill="url(#shield)" stroke="none" stroke-width="0" opacity="0.85"/>
+<rect x="96" y="636" width="16" height="10" rx="1" fill="#cfd8dc" stroke="none" stroke-width="0" opacity="0.9"/>
+<rect x="118" y="636" width="16" height="10" rx="1" fill="#cfd8dc" stroke="none" stroke-width="0" opacity="0.9"/>
+<rect x="330" y="500" width="230" height="170" rx="14" fill="#1565C0" stroke="#ffffff55" stroke-width="2" opacity="0.92"/>
+<text x="445.0" y="560" font-size="16" fill="#fff" font-weight="800" text-anchor="middle">AUDIO + DISPLAY</text>
+<text x="445.0" y="592" font-size="14.5" fill="#ffffffdd" font-weight="400" text-anchor="middle"><tspan x="445.0" dy="0">codec, amplifier,</tspan><tspan x="445.0" dy="19.575000000000003">screen connector</tspan></text>
+<rect x="508" y="630" width="34" height="22" rx="3" fill="url(#shield)" stroke="none" stroke-width="0" opacity="0.85"/>
+<rect x="346" y="636" width="16" height="10" rx="1" fill="#cfd8dc" stroke="none" stroke-width="0" opacity="0.9"/>
+<rect x="368" y="636" width="16" height="10" rx="1" fill="#cfd8dc" stroke="none" stroke-width="0" opacity="0.9"/>
+<text x="630" y="145" font-size="21" fill="#0D2847" font-weight="700" text-anchor="start">Where faults usually show up</text>
+<rect x="630" y="180" width="530" height="64" rx="12" fill="#f3e5f5" stroke="#ce93d8" stroke-width="2" opacity="1"/>
+<rect x="630" y="180" width="8" height="64" rx="4" fill="#6A1B9A" stroke="none" stroke-width="2" opacity="1"/>
+<text x="660" y="219" font-size="17" fill="#263238" font-weight="600" text-anchor="start">Network: no SIM, no service, weak signal</text>
+<rect x="630" y="262" width="530" height="64" rx="12" fill="#e0f2f1" stroke="#80cbc4" stroke-width="2" opacity="1"/>
+<rect x="630" y="262" width="8" height="64" rx="4" fill="#00796B" stroke="none" stroke-width="2" opacity="1"/>
+<text x="660" y="301" font-size="17" fill="#263238" font-weight="600" text-anchor="start">Cameras and sensors not working</text>
+<rect x="630" y="344" width="530" height="64" rx="12" fill="#e8edf5" stroke="#c5cfe0" stroke-width="2" opacity="1"/>
+<rect x="630" y="344" width="8" height="64" rx="4" fill="#0D2847" stroke="none" stroke-width="2" opacity="1"/>
+<text x="660" y="383" font-size="17" fill="#263238" font-weight="600" text-anchor="start">Dead, boot loop, overheating</text>
+<rect x="630" y="426" width="530" height="64" rx="12" fill="#fff3e0" stroke="#ffcc80" stroke-width="2" opacity="1"/>
+<rect x="630" y="426" width="8" height="64" rx="4" fill="#E65100" stroke="none" stroke-width="2" opacity="1"/>
+<text x="660" y="465" font-size="17" fill="#263238" font-weight="600" text-anchor="start">No power, shorts on power lines</text>
+<rect x="630" y="508" width="530" height="64" rx="12" fill="#ffebee" stroke="#ef9a9a" stroke-width="2" opacity="1"/>
+<rect x="630" y="508" width="8" height="64" rx="4" fill="#C62828" stroke="none" stroke-width="2" opacity="1"/>
+<text x="660" y="547" font-size="17" fill="#263238" font-weight="600" text-anchor="start">Not charging, slow charging</text>
+<rect x="630" y="590" width="530" height="64" rx="12" fill="#e3f2fd" stroke="#90caf9" stroke-width="2" opacity="1"/>
+<rect x="630" y="590" width="8" height="64" rx="4" fill="#1565C0" stroke="none" stroke-width="2" opacity="1"/>
+<text x="660" y="629" font-size="17" fill="#263238" font-weight="600" text-anchor="start">No sound, no display</text></svg>

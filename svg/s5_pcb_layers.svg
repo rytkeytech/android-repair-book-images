@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 580" width="1200" height="580" font-family="Inter, DejaVu Sans, sans-serif"><defs>
+<linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7d46"/><stop offset="1" stop-color="#1b5631"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa4ad"/><stop offset=".5" stop-color="#eef1f3"/><stop offset="1" stop-color="#8a949d"/></linearGradient>
+<linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3f5f7"/><stop offset="1" stop-color="#aab3bb"/></linearGradient>
+<linearGradient id="dev" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1f3f5"/><stop offset="1" stop-color="#b8c3cb"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a5d68"/><stop offset="1" stop-color="#263238"/></linearGradient>
+<linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd54f"/><stop offset="1" stop-color="#ffb300"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a4a5c"/><stop offset=".5" stop-color="#121a24"/><stop offset="1" stop-color="#05080c"/></linearGradient>
+<linearGradient id="batt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b4652"/><stop offset="1" stop-color="#1f262e"/></linearGradient>
+<linearGradient id="copper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8c06a"/><stop offset="1" stop-color="#b8892e"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#64b5f6"/><stop offset="1" stop-color="#1e88e5"/></linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0b1a2b" flood-opacity=".18"/></filter>
+<filter id="sh2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1a2b" flood-opacity=".25"/></filter>
+<marker id="a0D2847" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0D2847"/></marker><marker id="aE65100" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#E65100"/></marker><marker id="a1565C0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1565C0"/></marker><marker id="a2E7D32" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2E7D32"/></marker><marker id="aC62828" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#C62828"/></marker><marker id="a6A1B9A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6A1B9A"/></marker><marker id="a00796B" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#00796B"/></marker><marker id="a546E7A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#546E7A"/></marker><marker id="a1d1d1f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1d1d1f"/></marker><marker id="aff5722" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ff5722"/></marker><marker id="affffff" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ffffff"/></marker></defs><rect width="1200" height="580" fill="#fff"/>
+<text x="40" y="52" font-size="30" font-weight="700" fill="#0D2847">How a phone board is built: many thin layers</text>
+<text x="40" y="84" font-size="17" fill="#55657a">A cross-section through a motherboard. Phone boards often have 8 to 12 copper layers.</text>
+<text x="40" y="558" font-size="15" fill="#55657a">A track can run inside the board where you cannot see it. That is why a line can be broken with no visible damage.</text>
+<rect x="80" y="230" width="700" height="22" rx="0" fill="#2e7d32" stroke="#5d4037" stroke-width="0.6" opacity="1"/>
+<path d="M780 241.0 L800 241.0 L830 214 L845 214" fill="none" stroke="#90a4ae" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="852" y="219" font-size="15.5" fill="#263238" font-weight="600" text-anchor="start">Solder mask (green)</text>
+<rect x="80" y="252" width="700" height="22" rx="0" fill="url(#copper)" stroke="#5d4037" stroke-width="0.6" opacity="1"/>
+<path d="M780 263.0 L800 263.0 L830 254 L845 254" fill="none" stroke="#90a4ae" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="852" y="259" font-size="15.5" fill="#263238" font-weight="600" text-anchor="start">Top copper: pads and tracks</text>
+<rect x="80" y="274" width="700" height="30" rx="0" fill="#e7dccf" stroke="#5d4037" stroke-width="0.6" opacity="1"/>
+<path d="M780 289.0 L800 289.0 L830 294 L845 294" fill="none" stroke="#90a4ae" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="852" y="299" font-size="15.5" fill="#263238" font-weight="600" text-anchor="start">Insulation (fibreglass)</text>
+<rect x="80" y="304" width="700" height="22" rx="0" fill="#ffb74d" stroke="#5d4037" stroke-width="0.6" opacity="1"/>
+<path d="M780 315.0 L800 315.0 L830 334 L845 334" fill="none" stroke="#90a4ae" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="852" y="339" font-size="15.5" fill="#263238" font-weight="600" text-anchor="start">Inner copper: power plane</text>
+<rect x="80" y="326" width="700" height="30" rx="0" fill="#e7dccf" stroke="#5d4037" stroke-width="0.6" opacity="1"/>
+<rect x="80" y="356" width="700" height="22" rx="0" fill="#bcaaa4" stroke="#5d4037" stroke-width="0.6" opacity="1"/>
+<path d="M780 367.0 L800 367.0 L830 374 L845 374" fill="none" stroke="#90a4ae" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="852" y="379" font-size="15.5" fill="#263238" font-weight="600" text-anchor="start">Inner copper: ground plane</text>
+<rect x="80" y="378" width="700" height="30" rx="0" fill="#e7dccf" stroke="#5d4037" stroke-width="0.6" opacity="1"/>
+<rect x="80" y="408" width="700" height="22" rx="0" fill="#ffcc80" stroke="#5d4037" stroke-width="0.6" opacity="1"/>
+<path d="M780 419.0 L800 419.0 L830 414 L845 414" fill="none" stroke="#90a4ae" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="852" y="419" font-size="15.5" fill="#263238" font-weight="600" text-anchor="start">Inner copper: signals</text>
+<rect x="80" y="430" width="700" height="30" rx="0" fill="#e7dccf" stroke="#5d4037" stroke-width="0.6" opacity="1"/>
+<rect x="80" y="460" width="700" height="22" rx="0" fill="url(#copper)" stroke="#5d4037" stroke-width="0.6" opacity="1"/>
+<path d="M780 471.0 L800 471.0 L830 454 L845 454" fill="none" stroke="#90a4ae" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="852" y="459" font-size="15.5" fill="#263238" font-weight="600" text-anchor="start">Bottom copper</text>
+<rect x="80" y="482" width="700" height="22" rx="0" fill="#2e7d32" stroke="#5d4037" stroke-width="0.6" opacity="1"/>
+<path d="M780 493.0 L800 493.0 L830 494 L845 494" fill="none" stroke="#90a4ae" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="852" y="499" font-size="15.5" fill="#263238" font-weight="600" text-anchor="start">Solder mask</text>
+<text x="830" y="260" font-size="1" fill="#1d1d1f" font-weight="400" text-anchor="start"></text>
+<rect x="160" y="190" width="90" height="40" rx="3" fill="#8d6e4a" stroke="#4e342e" stroke-width="2" opacity="1"/>
+<rect x="160" y="190" width="18" height="40" rx="2" fill="#cfd8dc" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="232" y="190" width="18" height="40" rx="2" fill="#cfd8dc" stroke="none" stroke-width="2" opacity="1"/>
+<text x="205" y="178" font-size="14" fill="#1d1d1f" font-weight="600" text-anchor="middle">capacitor</text>
+<rect x="420" y="186" width="160" height="44" rx="4" fill="#263238" stroke="none" stroke-width="2" opacity="1"/>
+<text x="500" y="214" font-size="14" fill="#cfd8dc" font-weight="700" text-anchor="middle">chip</text>
+<circle cx="435" cy="232" r="6" fill="#cfd8dc" stroke="#78909c" stroke-width="1"/>
+<circle cx="461" cy="232" r="6" fill="#cfd8dc" stroke="#78909c" stroke-width="1"/>
+<circle cx="487" cy="232" r="6" fill="#cfd8dc" stroke="#78909c" stroke-width="1"/>
+<circle cx="513" cy="232" r="6" fill="#cfd8dc" stroke="#78909c" stroke-width="1"/>
+<circle cx="539" cy="232" r="6" fill="#cfd8dc" stroke="#78909c" stroke-width="1"/>
+<circle cx="565" cy="232" r="6" fill="#cfd8dc" stroke="#78909c" stroke-width="1"/>
+<rect x="320" y="230" width="16" height="274" rx="2" fill="url(#metal)" stroke="#546e7a" stroke-width="1.5" opacity="1"/>
+<text x="328" y="530" font-size="14" fill="#1d1d1f" font-weight="700" text-anchor="middle">through via</text>
+<rect x="640" y="230" width="16" height="86" rx="2" fill="url(#metal)" stroke="#546e7a" stroke-width="1.5" opacity="1"/>
+<text x="648" y="170" font-size="1" fill="#1d1d1f" font-weight="400" text-anchor="start"></text>
+<text x="690" y="330" font-size="14" fill="#1d1d1f" font-weight="700" text-anchor="start">blind via</text>
+<rect x="80" y="120" width="700" height="46" rx="12" fill="#e3f2fd" stroke="none" stroke-width="2" opacity="1"/><rect x="80" y="120" width="6" height="46" rx="3" fill="#1565C0" stroke="none" stroke-width="2" opacity="1"/><circle cx="114" cy="143.0" r="15" fill="#1565C0" stroke="none" stroke-width="2"/><text x="114" y="149.0" font-size="17" fill="#fff" font-weight="800" text-anchor="middle">i</text><text x="142" y="148.25" font-size="15" fill="#263238" font-weight="400" text-anchor="start">Vias are tiny copper tubes that join one layer to another.</text></svg>
