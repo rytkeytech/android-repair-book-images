@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" font-family="Inter, DejaVu Sans, sans-serif"><defs>
+<linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7d46"/><stop offset="1" stop-color="#1b5631"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa4ad"/><stop offset=".5" stop-color="#eef1f3"/><stop offset="1" stop-color="#8a949d"/></linearGradient>
+<linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3f5f7"/><stop offset="1" stop-color="#aab3bb"/></linearGradient>
+<linearGradient id="dev" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1f3f5"/><stop offset="1" stop-color="#b8c3cb"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a5d68"/><stop offset="1" stop-color="#263238"/></linearGradient>
+<linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd54f"/><stop offset="1" stop-color="#ffb300"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a4a5c"/><stop offset=".5" stop-color="#121a24"/><stop offset="1" stop-color="#05080c"/></linearGradient>
+<linearGradient id="batt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b4652"/><stop offset="1" stop-color="#1f262e"/></linearGradient>
+<linearGradient id="copper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8c06a"/><stop offset="1" stop-color="#b8892e"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#64b5f6"/><stop offset="1" stop-color="#1e88e5"/></linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0b1a2b" flood-opacity=".18"/></filter>
+<filter id="sh2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1a2b" flood-opacity=".25"/></filter>
+<marker id="a0D2847" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0D2847"/></marker><marker id="aE65100" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#E65100"/></marker><marker id="a1565C0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1565C0"/></marker><marker id="a2E7D32" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2E7D32"/></marker><marker id="aC62828" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#C62828"/></marker><marker id="a6A1B9A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6A1B9A"/></marker><marker id="a00796B" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#00796B"/></marker><marker id="a546E7A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#546E7A"/></marker><marker id="a1d1d1f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1d1d1f"/></marker><marker id="aff5722" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ff5722"/></marker><marker id="affffff" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ffffff"/></marker></defs><rect width="1200" height="560" fill="#fff"/>
+<text x="40" y="52" font-size="30" font-weight="700" fill="#0D2847">Battery connector and charging port pins (common layout)</text>
+<text x="40" y="84" font-size="17" fill="#55657a">Pin order changes between models. Check the schematic before you measure.</text>
+<rect x="40" y="110" width="540" height="400" rx="18" fill="#fff" stroke="#dfe5ec" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<text x="70" y="150" font-size="20" fill="#0D2847" font-weight="800" text-anchor="start">Battery connector</text>
+<rect x="80" y="200" width="460" height="120" rx="12" fill="#263238" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="100" y="220" width="52" height="80" rx="6" fill="url(#copper)" stroke="#8d6e1a" stroke-width="1.5" opacity="1"/>
+<text x="126" y="350" font-size="14" fill="#C62828" font-weight="800" text-anchor="middle">VBAT +</text>
+<rect x="174" y="220" width="52" height="80" rx="6" fill="url(#copper)" stroke="#8d6e1a" stroke-width="1.5" opacity="1"/>
+<text x="200" y="350" font-size="14" fill="#6A1B9A" font-weight="800" text-anchor="middle">BSI</text>
+<text x="200" y="368" font-size="12" fill="#6A1B9A" font-weight="700" text-anchor="middle">ID</text>
+<rect x="248" y="220" width="52" height="80" rx="6" fill="url(#copper)" stroke="#8d6e1a" stroke-width="1.5" opacity="1"/>
+<text x="274" y="350" font-size="14" fill="#E65100" font-weight="800" text-anchor="middle">BTEMP</text>
+<text x="274" y="368" font-size="12" fill="#E65100" font-weight="700" text-anchor="middle">NTC</text>
+<rect x="322" y="220" width="52" height="80" rx="6" fill="url(#copper)" stroke="#8d6e1a" stroke-width="1.5" opacity="1"/>
+<text x="348" y="350" font-size="14" fill="#1565C0" font-weight="800" text-anchor="middle">SDA</text>
+<rect x="396" y="220" width="52" height="80" rx="6" fill="url(#copper)" stroke="#8d6e1a" stroke-width="1.5" opacity="1"/>
+<text x="422" y="350" font-size="14" fill="#1565C0" font-weight="800" text-anchor="middle">SCL</text>
+<rect x="470" y="220" width="52" height="80" rx="6" fill="url(#copper)" stroke="#8d6e1a" stroke-width="1.5" opacity="1"/>
+<text x="496" y="350" font-size="14" fill="#1d1d1f" font-weight="800" text-anchor="middle">GND</text>
+<text x="70" y="430" font-size="15" fill="#37474f" font-weight="400" text-anchor="start">VBAT: 3.7–4.4 V  ·  NTC: about 10 kΩ to GND</text>
+<text x="70" y="458" font-size="15" fill="#37474f" font-weight="400" text-anchor="start">SDA / SCL: battery data (fuel gauge)</text>
+<rect x="620" y="110" width="540" height="400" rx="18" fill="#fff" stroke="#dfe5ec" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<text x="650" y="150" font-size="20" fill="#0D2847" font-weight="800" text-anchor="start">USB-C port (main pins)</text>
+<rect x="660" y="200" width="460" height="130" rx="65" fill="url(#metal)" stroke="#607d8b" stroke-width="2" opacity="1"/>
+<rect x="700" y="252" width="380" height="26" rx="13" fill="#37474f" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="716" y="226" width="26" height="22" rx="3" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<text x="729" y="360" font-size="13" fill="#1d1d1f" font-weight="800" text-anchor="middle">GND</text>
+<rect x="762" y="226" width="26" height="22" rx="3" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<text x="775" y="360" font-size="13" fill="#C62828" font-weight="800" text-anchor="middle">VBUS</text>
+<rect x="808" y="226" width="26" height="22" rx="3" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<text x="821" y="360" font-size="13" fill="#6A1B9A" font-weight="800" text-anchor="middle">CC1</text>
+<rect x="854" y="226" width="26" height="22" rx="3" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<text x="867" y="360" font-size="13" fill="#1565C0" font-weight="800" text-anchor="middle">D+</text>
+<rect x="900" y="226" width="26" height="22" rx="3" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<text x="913" y="360" font-size="13" fill="#1565C0" font-weight="800" text-anchor="middle">D–</text>
+<rect x="946" y="226" width="26" height="22" rx="3" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<text x="959" y="360" font-size="13" fill="#546E7A" font-weight="800" text-anchor="middle">SBU</text>
+<rect x="992" y="226" width="26" height="22" rx="3" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<text x="1005" y="360" font-size="13" fill="#C62828" font-weight="800" text-anchor="middle">VBUS</text>
+<rect x="1038" y="226" width="26" height="22" rx="3" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<text x="1051" y="360" font-size="13" fill="#1d1d1f" font-weight="800" text-anchor="middle">GND</text>
+<text x="650" y="430" font-size="15" fill="#37474f" font-weight="400" text-anchor="start">Micro-USB: VBUS, D–, D+, ID, GND</text>
+<text x="650" y="458" font-size="15" fill="#37474f" font-weight="400" text-anchor="start">USB-C also has CC2 on the other row</text></svg>

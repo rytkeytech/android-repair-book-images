@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" font-family="Inter, DejaVu Sans, sans-serif"><defs>
+<linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7d46"/><stop offset="1" stop-color="#1b5631"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa4ad"/><stop offset=".5" stop-color="#eef1f3"/><stop offset="1" stop-color="#8a949d"/></linearGradient>
+<linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3f5f7"/><stop offset="1" stop-color="#aab3bb"/></linearGradient>
+<linearGradient id="dev" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1f3f5"/><stop offset="1" stop-color="#b8c3cb"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a5d68"/><stop offset="1" stop-color="#263238"/></linearGradient>
+<linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd54f"/><stop offset="1" stop-color="#ffb300"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a4a5c"/><stop offset=".5" stop-color="#121a24"/><stop offset="1" stop-color="#05080c"/></linearGradient>
+<linearGradient id="batt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b4652"/><stop offset="1" stop-color="#1f262e"/></linearGradient>
+<linearGradient id="copper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8c06a"/><stop offset="1" stop-color="#b8892e"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#64b5f6"/><stop offset="1" stop-color="#1e88e5"/></linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0b1a2b" flood-opacity=".18"/></filter>
+<filter id="sh2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1a2b" flood-opacity=".25"/></filter>
+<marker id="a0D2847" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0D2847"/></marker><marker id="aE65100" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#E65100"/></marker><marker id="a1565C0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1565C0"/></marker><marker id="a2E7D32" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2E7D32"/></marker><marker id="aC62828" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#C62828"/></marker><marker id="a6A1B9A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6A1B9A"/></marker><marker id="a00796B" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#00796B"/></marker><marker id="a546E7A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#546E7A"/></marker><marker id="a1d1d1f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1d1d1f"/></marker><marker id="aff5722" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ff5722"/></marker><marker id="affffff" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ffffff"/></marker></defs><rect width="1200" height="440" fill="#fff"/>
+<text x="40" y="52" font-size="30" font-weight="700" fill="#0D2847">Fitting the chip: let surface tension align it</text>
+<text x="40" y="84" font-size="17" fill="#55657a">Never press the chip down. A gentle nudge to check it 'floats' and springs back is enough.</text>
+<rect x="40" y="100" width="360" height="280" rx="18" fill="#fff" stroke="#dfe5ec" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<text x="220" y="350" font-size="17" fill="#0D2847" font-weight="800" text-anchor="middle">1. Place close to the marks</text>
+<rect x="80" y="270" width="280" height="30" rx="4" fill="url(#pcb)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="102" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="146" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="190" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="234" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="278" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="322" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="116" y="196" width="260" height="40" rx="4" fill="#263238" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="141" cy="248" r="11" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="185" cy="248" r="11" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="229" cy="248" r="11" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="273" cy="248" r="11" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="317" cy="248" r="11" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="361" cy="248" r="11" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<path d="M92 170 l10 -18 l10 18 z" fill="#E65100" stroke="#E65100" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<text x="102" y="146" font-size="12" fill="#E65100" font-weight="700" text-anchor="middle">corner mark</text>
+<line x1="404" y1="240" x2="426" y2="240" stroke="#E65100" stroke-width="3" stroke-linecap="round" marker-end="url(#aE65100)"/>
+<rect x="430" y="100" width="360" height="280" rx="18" fill="#fff" stroke="#dfe5ec" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<text x="610" y="350" font-size="17" fill="#0D2847" font-weight="800" text-anchor="middle">2. Heat: the solder melts</text>
+<rect x="470" y="270" width="280" height="30" rx="4" fill="url(#pcb)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="492" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="536" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="580" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="624" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="668" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="712" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="492" y="196" width="260" height="40" rx="4" fill="#263238" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="511.0" cy="250" r="12" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="555.0" cy="250" r="12" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="599.0" cy="250" r="12" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="643.0" cy="250" r="12" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="687.0" cy="250" r="12" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="731.0" cy="250" r="12" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<path d="M580 180 l20 -10 l20 10" fill="none" stroke="#ff7043" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<path d="M620 180 l20 -10 l20 10" fill="none" stroke="#ff7043" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<line x1="794" y1="240" x2="816" y2="240" stroke="#E65100" stroke-width="3" stroke-linecap="round" marker-end="url(#aE65100)"/>
+<rect x="820" y="100" width="360" height="280" rx="18" fill="#fff" stroke="#dfe5ec" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<text x="1000" y="350" font-size="17" fill="#0D2847" font-weight="800" text-anchor="middle">3. The chip pulls itself into place</text>
+<rect x="860" y="270" width="280" height="30" rx="4" fill="url(#pcb)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="882" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="926" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="970" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="1014" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="1058" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="1102" y="262" width="26" height="8" rx="2" fill="url(#copper)" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="870" y="196" width="260" height="40" rx="4" fill="#263238" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="895" cy="248" r="11" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="939" cy="248" r="11" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="983" cy="248" r="11" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="1027" cy="248" r="11" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="1071" cy="248" r="11" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/>
+<circle cx="1115" cy="248" r="11" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5"/></svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" font-family="Inter, DejaVu Sans, sans-serif"><defs>
+<linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7d46"/><stop offset="1" stop-color="#1b5631"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa4ad"/><stop offset=".5" stop-color="#eef1f3"/><stop offset="1" stop-color="#8a949d"/></linearGradient>
+<linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3f5f7"/><stop offset="1" stop-color="#aab3bb"/></linearGradient>
+<linearGradient id="dev" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1f3f5"/><stop offset="1" stop-color="#b8c3cb"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a5d68"/><stop offset="1" stop-color="#263238"/></linearGradient>
+<linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd54f"/><stop offset="1" stop-color="#ffb300"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a4a5c"/><stop offset=".5" stop-color="#121a24"/><stop offset="1" stop-color="#05080c"/></linearGradient>
+<linearGradient id="batt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b4652"/><stop offset="1" stop-color="#1f262e"/></linearGradient>
+<linearGradient id="copper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8c06a"/><stop offset="1" stop-color="#b8892e"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#64b5f6"/><stop offset="1" stop-color="#1e88e5"/></linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0b1a2b" flood-opacity=".18"/></filter>
+<filter id="sh2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1a2b" flood-opacity=".25"/></filter>
+<marker id="a0D2847" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0D2847"/></marker><marker id="aE65100" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#E65100"/></marker><marker id="a1565C0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1565C0"/></marker><marker id="a2E7D32" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2E7D32"/></marker><marker id="aC62828" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#C62828"/></marker><marker id="a6A1B9A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6A1B9A"/></marker><marker id="a00796B" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#00796B"/></marker><marker id="a546E7A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#546E7A"/></marker><marker id="a1d1d1f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1d1d1f"/></marker><marker id="aff5722" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ff5722"/></marker><marker id="affffff" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ffffff"/></marker></defs><rect width="1200" height="560" fill="#fff"/>
+<text x="40" y="52" font-size="30" font-weight="700" fill="#0D2847">Multimeter quick guide</text>
+<text x="64" y="132" font-size="16" fill="#0D2847" font-weight="800" text-anchor="start">Question</text>
+<text x="380" y="132" font-size="16" fill="#0D2847" font-weight="800" text-anchor="start">Mode</text>
+<text x="590" y="132" font-size="16" fill="#0D2847" font-weight="800" text-anchor="start">Setup</text>
+<text x="900" y="132" font-size="16" fill="#0D2847" font-weight="800" text-anchor="start">Good / bad</text>
+<rect x="40" y="150" width="1120" height="64" rx="14" fill="#fff" stroke="#dfe5ec" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="40" y="150" width="8" height="64" rx="4" fill="#E65100" stroke="none" stroke-width="2" opacity="1"/>
+<text x="64" y="189" font-size="17" fill="#0D2847" font-weight="800" text-anchor="start">Is the line shorted?</text>
+<rect x="370" y="164" width="180" height="36" rx="18" fill="#fff3e0" stroke="none" stroke-width="2" opacity="1"/>
+<text x="460" y="188" font-size="15.5" fill="#E65100" font-weight="800" text-anchor="middle">Diode mode</text>
+<text x="590" y="189" font-size="15.5" fill="#263238" font-weight="400" text-anchor="start">battery OFF, red probe on GND</text>
+<text x="900" y="189" font-size="15.5" fill="#263238" font-weight="700" text-anchor="start">near 0 = short</text>
+<rect x="40" y="226" width="1120" height="64" rx="14" fill="#fff" stroke="#dfe5ec" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="40" y="226" width="8" height="64" rx="4" fill="#1565C0" stroke="none" stroke-width="2" opacity="1"/>
+<text x="64" y="265" font-size="17" fill="#0D2847" font-weight="800" text-anchor="start">Is a voltage present?</text>
+<rect x="370" y="240" width="180" height="36" rx="18" fill="#e3f2fd" stroke="none" stroke-width="2" opacity="1"/>
+<text x="460" y="264" font-size="15.5" fill="#1565C0" font-weight="800" text-anchor="middle">DC volts</text>
+<text x="590" y="265" font-size="15.5" fill="#263238" font-weight="400" text-anchor="start">phone ON, black probe on GND</text>
+<text x="900" y="265" font-size="15.5" fill="#263238" font-weight="700" text-anchor="start">compare with schematic</text>
+<rect x="40" y="302" width="1120" height="64" rx="14" fill="#fff" stroke="#dfe5ec" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="40" y="302" width="8" height="64" rx="4" fill="#6A1B9A" stroke="none" stroke-width="2" opacity="1"/>
+<text x="64" y="341" font-size="17" fill="#0D2847" font-weight="800" text-anchor="start">Is the fuse or coil OK?</text>
+<rect x="370" y="316" width="180" height="36" rx="18" fill="#f3e5f5" stroke="none" stroke-width="2" opacity="1"/>
+<text x="460" y="340" font-size="15.5" fill="#6A1B9A" font-weight="800" text-anchor="middle">Continuity / Ω</text>
+<text x="590" y="341" font-size="15.5" fill="#263238" font-weight="400" text-anchor="start">battery OFF</text>
+<text x="900" y="341" font-size="15.5" fill="#263238" font-weight="700" text-anchor="start">beep, near 0 Ω = OK</text>
+<rect x="40" y="378" width="1120" height="64" rx="14" fill="#fff" stroke="#dfe5ec" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="40" y="378" width="8" height="64" rx="4" fill="#2E7D32" stroke="none" stroke-width="2" opacity="1"/>
+<text x="64" y="417" font-size="17" fill="#0D2847" font-weight="800" text-anchor="start">Is the speaker OK?</text>
+<rect x="370" y="392" width="180" height="36" rx="18" fill="#e8f5e9" stroke="none" stroke-width="2" opacity="1"/>
+<text x="460" y="416" font-size="15.5" fill="#2E7D32" font-weight="800" text-anchor="middle">Resistance Ω</text>
+<text x="590" y="417" font-size="15.5" fill="#263238" font-weight="400" text-anchor="start">speaker out of circuit</text>
+<text x="900" y="417" font-size="15.5" fill="#263238" font-weight="700" text-anchor="start">about 8 Ω</text>
+<rect x="40" y="454" width="1120" height="64" rx="14" fill="#fff" stroke="#dfe5ec" stroke-width="2" opacity="1" filter="url(#sh)"/>
+<rect x="40" y="454" width="8" height="64" rx="4" fill="#00796B" stroke="none" stroke-width="2" opacity="1"/>
+<text x="64" y="493" font-size="17" fill="#0D2847" font-weight="800" text-anchor="start">Is the battery OK?</text>
+<rect x="370" y="468" width="180" height="36" rx="18" fill="#e0f2f1" stroke="none" stroke-width="2" opacity="1"/>
+<text x="460" y="492" font-size="15.5" fill="#00796B" font-weight="800" text-anchor="middle">DC volts</text>
+<text x="590" y="493" font-size="15.5" fill="#263238" font-weight="400" text-anchor="start">on the battery pins</text>
+<text x="900" y="493" font-size="15.5" fill="#263238" font-weight="700" text-anchor="start">3.7 – 4.4 V</text></svg>

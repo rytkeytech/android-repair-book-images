@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" font-family="Inter, DejaVu Sans, sans-serif"><defs>
+<linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7d46"/><stop offset="1" stop-color="#1b5631"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa4ad"/><stop offset=".5" stop-color="#eef1f3"/><stop offset="1" stop-color="#8a949d"/></linearGradient>
+<linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3f5f7"/><stop offset="1" stop-color="#aab3bb"/></linearGradient>
+<linearGradient id="dev" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1f3f5"/><stop offset="1" stop-color="#b8c3cb"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a5d68"/><stop offset="1" stop-color="#263238"/></linearGradient>
+<linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd54f"/><stop offset="1" stop-color="#ffb300"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a4a5c"/><stop offset=".5" stop-color="#121a24"/><stop offset="1" stop-color="#05080c"/></linearGradient>
+<linearGradient id="batt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b4652"/><stop offset="1" stop-color="#1f262e"/></linearGradient>
+<linearGradient id="copper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8c06a"/><stop offset="1" stop-color="#b8892e"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#64b5f6"/><stop offset="1" stop-color="#1e88e5"/></linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0b1a2b" flood-opacity=".18"/></filter>
+<filter id="sh2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1a2b" flood-opacity=".25"/></filter>
+<marker id="a0D2847" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0D2847"/></marker><marker id="aE65100" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#E65100"/></marker><marker id="a1565C0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1565C0"/></marker><marker id="a2E7D32" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2E7D32"/></marker><marker id="aC62828" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#C62828"/></marker><marker id="a6A1B9A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6A1B9A"/></marker><marker id="a00796B" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#00796B"/></marker><marker id="a546E7A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#546E7A"/></marker><marker id="a1d1d1f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1d1d1f"/></marker><marker id="aff5722" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ff5722"/></marker><marker id="affffff" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ffffff"/></marker></defs><rect width="1200" height="500" fill="#fff"/>
+<text x="40" y="52" font-size="30" font-weight="700" fill="#0D2847">Reading signal strength in dBm</text>
+<text x="40" y="84" font-size="17" fill="#55657a">Settings → About phone → Status → SIM status. The number is negative: closer to 0 is stronger.</text>
+<text x="40" y="478" font-size="15" fill="#55657a">Values are a general guide for 4G. 2G and 5G use slightly different ranges.</text>
+<rect x="60" y="190" width="432.0" height="60" rx="0" fill="#2e7d32" stroke="#fff" stroke-width="3" opacity="1"/>
+<text x="276.0" y="227" font-size="16" fill="#fff" font-weight="800" text-anchor="middle">Excellent</text>
+<rect x="492.0" y="190" width="140.4" height="60" rx="0" fill="#7cb342" stroke="#fff" stroke-width="3" opacity="1"/>
+<text x="562.2" y="227" font-size="16" fill="#fff" font-weight="800" text-anchor="middle">Good</text>
+<rect x="632.4" y="190" width="140.4" height="60" rx="0" fill="#f9a825" stroke="#fff" stroke-width="3" opacity="1"/>
+<text x="702.6" y="227" font-size="16" fill="#fff" font-weight="800" text-anchor="middle">Fair</text>
+<rect x="772.8" y="190" width="140.4" height="60" rx="0" fill="#ef6c00" stroke="#fff" stroke-width="3" opacity="1"/>
+<text x="843.0" y="227" font-size="16" fill="#fff" font-weight="800" text-anchor="middle">Poor</text>
+<rect x="913.1999999999999" y="190" width="226.79999999999998" height="60" rx="0" fill="#c62828" stroke="#fff" stroke-width="3" opacity="1"/>
+<text x="1026.6" y="227" font-size="16" fill="#fff" font-weight="800" text-anchor="middle">No usable signal</text>
+<line x1="60" y1="180" x2="60" y2="260" stroke="#1d1d1f" stroke-width="2" stroke-linecap="round"/>
+<text x="60" y="172" font-size="16" fill="#1d1d1f" font-weight="800" text-anchor="middle">-50</text>
+<line x1="492" y1="180" x2="492" y2="260" stroke="#1d1d1f" stroke-width="2" stroke-linecap="round"/>
+<text x="492" y="172" font-size="16" fill="#1d1d1f" font-weight="800" text-anchor="middle">-80</text>
+<line x1="632" y1="180" x2="632" y2="260" stroke="#1d1d1f" stroke-width="2" stroke-linecap="round"/>
+<text x="632" y="172" font-size="16" fill="#1d1d1f" font-weight="800" text-anchor="middle">-90</text>
+<line x1="773" y1="180" x2="773" y2="260" stroke="#1d1d1f" stroke-width="2" stroke-linecap="round"/>
+<text x="773" y="172" font-size="16" fill="#1d1d1f" font-weight="800" text-anchor="middle">-100</text>
+<line x1="913" y1="180" x2="913" y2="260" stroke="#1d1d1f" stroke-width="2" stroke-linecap="round"/>
+<text x="913" y="172" font-size="16" fill="#1d1d1f" font-weight="800" text-anchor="middle">-110</text>
+<line x1="1140" y1="180" x2="1140" y2="260" stroke="#1d1d1f" stroke-width="2" stroke-linecap="round"/>
+<text x="1140" y="172" font-size="16" fill="#1d1d1f" font-weight="800" text-anchor="middle">-125</text>
+<rect x="80" y="160" width="1" height="1" rx="10" fill="none" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="106" y="160" width="1" height="1" rx="10" fill="none" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="132" y="160" width="1" height="1" rx="10" fill="none" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="158" y="160" width="1" height="1" rx="10" fill="none" stroke="none" stroke-width="2" opacity="1"/>
+<rect x="184" y="160" width="1" height="1" rx="10" fill="none" stroke="none" stroke-width="2" opacity="1"/>
+<g transform="translate(1070,18) rotate(0) scale(1)"><rect x="0" y="40" width="12" height="10" rx="2" fill="#2e7d32" stroke="none" stroke-width="2" opacity="1"/><rect x="18" y="30" width="12" height="20" rx="2" fill="#2e7d32" stroke="none" stroke-width="2" opacity="1"/><rect x="36" y="20" width="12" height="30" rx="2" fill="#2e7d32" stroke="none" stroke-width="2" opacity="1"/><rect x="54" y="10" width="12" height="40" rx="2" fill="#2e7d32" stroke="none" stroke-width="2" opacity="1"/><rect x="72" y="0" width="12" height="50" rx="2" fill="#cfd8dc" stroke="none" stroke-width="2" opacity="1"/></g>
+<rect x="60" y="300" width="1080" height="90" rx="12" fill="#e3f2fd" stroke="none" stroke-width="2" opacity="1"/><rect x="60" y="300" width="6" height="90" rx="3" fill="#1565C0" stroke="none" stroke-width="2" opacity="1"/><circle cx="94" cy="345.0" r="15" fill="#1565C0" stroke="none" stroke-width="2"/><text x="94" y="351.0" font-size="17" fill="#fff" font-weight="800" text-anchor="middle">i</text><text x="122" y="339.40000000000003" font-size="16" fill="#263238" font-weight="400" text-anchor="start"><tspan x="122" dy="0">Compare with a good phone on the same network in the same place. If the good phone reads –85</tspan><tspan x="122" dy="22.4">and yours reads –115, the problem is your phone's antenna or RF path, not the area.</tspan></text></svg>
